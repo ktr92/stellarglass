@@ -1,0 +1,862 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+  <link rel="shortcut icon" href="favicon/favicon.ico" />
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  
+  <link rel="stylesheet" href="css/slick.min.css" />
+  <link rel="stylesheet" href="css/slick-theme.min.css" />
+  <link rel="stylesheet" href="css/lightbox.min.css" />
+  <link rel="stylesheet" href="css/animate.min.css" />
+
+  <link rel="stylesheet" href="css/style.bundle.css" />
+  <title>REMVAC.RU</title>
+</head>
+
+<body>
+<header id="header" class="header bg-gray">
+    <div class="header__wrapper  border-b border-gra border-2">
+      <div class="container" id='top'>
+      <div class="header__row flex items-center justify-betweeen">
+        <div class="header__item">
+          <div class="header__block  flex items-center justify-center">
+            <div class="header__logo  flex items-center justify-center ">
+              <img src="img/logo1.svg" alt="">
+              <img src="img/logo2.svg" alt="" class='pl-12'>
+            </div>
+            <div class="header__descr text-lg text-white uppercase onlyDesktop">
+              Ремонт и обслуживание <br>вакуумных упаковщиков
+            </div>
+          </div>
+        </div><!-- /.header__item -->
+        <div class="header__item onlyMobile">
+          <div class="menu js-menu">
+            <span class="menu__line"></span>
+            <span class="menu__line"></span>
+            <span class="menu__line"></span>
+          </div>
+        </div><!-- /.header__item -->
+        <div class="header__item flex items-center onlyDesktop">
+          <div class="header__block  flex items-center justify-center"></div>
+            <div class="header__phone">
+              <div class="phone flex items-center ">
+                <a href="tel:84954775362" class='text-white text-xl decoration-none'>8 495 477 53 62</a>
+                <span class='chevtrondown pl-6'>
+                  <img src="img/chevron-down.svg" alt="">
+                </span>
+              </div><!-- /.phone -->
+              <div class="header__status">
+                <span class="status__icon"><img src="img/status.svg" alt=""></span>
+                <span class="status__text pl-7 text-white text-md">Мы на связи</span>
+              </div><!-- /.header__status -->
+            </div><!-- /.header__phone -->
+            <div class="header__callback">
+              <div class="callback">
+                <a href="#modal_callback" data-toggle='modal' class='button decoration-none'>Заказать звонок</a>
+              </div><!-- /.callback -->
+            </div><!-- /.header__callback -->
+            <div class="header__search">
+              <span class="searchbtn cursor-pointer">
+                <img src="img/search.svg" alt="">
+              </span><!-- /.searchbtn -->    
+            </div><!-- /.header__search -->
+          </div>
+        </div><!-- /.header__item -->
+      </div><!-- /.header__row -->
+  </div>
+  <div class="searchblock ">
+    <div class="container">
+      <div class="searchblock__wrapper bg-gray-500 flex items-center">
+        <div class="searchblock__icon"><img src="img/search.svg" alt=""></div>
+        <div class="searchblock__input pl-9"><input type="text" placeholder='Я ищу...'></div>
+        <span class="searchclose">
+          &times;
+        </span><!-- /.searchclose -->
+      </div><!-- /.searchblock__wrapper -->
+    </div><!-- /.container -->
+  </div><!-- /.searchblock -->
+    <div class="header__menu onlyDesktop">
+      <div class="container">
+        <div class="mainmenu">
+          <ul class='flex w-full '>
+            <li class='parent'><a href="">О компании</a></li>
+            <li class='parent'>
+              <a href="">Ремонт</a>
+              <ul class="submenu">
+                <li><a href="">MULTIVAC</a></li>
+                <li><a href="">HENKELMAN</a></li>
+                <li><a href="">VAMA</a></li>
+                <li><a href="">APACH</a></li>
+                <li><a href="">EHVC</a></li>
+                <li><a href="">LUXSTAHL</a></li>
+              </ul><!-- /.submenu -->
+            </li>
+            <li class='parent'><a href="">Запчасти</a></li>
+            <li class='parent'><a href="">Прайс-лист</a></li>
+            <li class='parent'><a href="">Услуги</a></li>
+            <li class='parent'><a href="">Галерея</a></li>
+            <li class='parent'><a href="">Контакты</a></li>
+          </ul>
+        </div><!-- /.mainmenu -->
+       </div><!-- /.header__menu -->
+      </div><!-- /.container -->
+    </div>
+  </div><!-- /.container -->
+  <div class="mobilemenu onlyMobile bg-gray">
+      <div class="mainmenu bg-gray border-t border-gray">
+        <div class="container">
+          <ul class='mainmenu__list'>
+            <li class='parent'><a href="">О компании</a></li>
+              <li class='parent'>
+                <a href="">Ремонт</a>
+                <ul class="submenu">
+                  <li><a href="">MULTIVAC</a></li>
+                  <li><a href="">HENKELMAN</a></li>
+                  <li><a href="">VAMA</a></li>
+                  <li><a href="">APACH</a></li>
+                  <li><a href="">EHVC</a></li>
+                  <li><a href="">LUXSTAHL</a></li>
+                </ul><!-- /.submenu -->
+              </li>
+              <li class='parent'><a href="">Запчасти</a></li>
+              <li class='parent'><a href="">Прайс-лист</a></li>
+              <li class='parent'><a href="">Услуги</a></li>
+              <li class='parent'><a href="">Галерея</a></li>
+              <li class='parent'><a href="">Контакты</a></li>
+          </ul>
+        </div> 
+        <div class="mobilemenu__info onlyMobile  border-t border-gray">
+          <div class="container">
+          <div class="mobilemenu__socials socials">
+            <div class="socials__items flex items-center">
+              <div class="socials__item"><a href="" target='_blank'><img src="img/Instagram.svg" alt=""></a></div>
+              <div class="socials__item"><a href="" target='_blank'><img src="img/YouTube.svg" alt=""></a></div>
+              <div class="socials__item"><a href="" target='_blank'><img src="img/Facebook.svg" alt=""></a></div>
+            </div><!-- /.socials__items -->
+          </div>
+          <div class="mobilemenu__email">
+            <a href="mailto:info@remvac.ru" class="linkemail">info@remvac.ru</a>
+          </div>
+          <div class="mobilemenu__phone">
+            <div class="phone flex items-center ">
+              <a href="tel:84954775362" class='text-white text-xl decoration-none'>8 495 477 53 62</a>
+              <span class='chevtrondown pl-6'>
+                <img src="img/chevron-down.svg" alt="">
+              </span>
+            </div><!-- /.phone -->
+            <div class="header__status">
+              <span class="status__icon"><img src="img/status.svg" alt=""></span>
+              <span class="status__text pl-7 text-white text-md">Мы на связи</span>
+            </div><!-- /.header__status -->
+          </div><!-- /.mobilemenu__phone -->
+          <div class="mobilemenu__callback">
+            <div class="callback">
+              <a target="_blank" href="#" class='button decoration-none'>Заказать звонок</a>
+            </div><!-- /.callback -->
+          </div><!-- /.mobilemenu__callback -->
+        </div><!-- /.mobilemenu__info -->
+      </div><!-- /.mainmenu -->
+     </div><!-- /.header__menu -->
+    </div><!-- /.container -->
+  </div><!-- /.mobilemenu -->
+</header><!-- /#header.header -->
+<main>
+  <section class='breadcrumbsblock'>
+    <div class="container">
+      <div class="breadcrumbs">
+        <div class="breadcrumbs__icon">
+          <div class="breadcrumbs__home"><img src="img/home.svg" alt=""></div>
+          <!-- /.breadcrumbs__home -->
+        </div>
+        <!-- /.breadcrumbs__icon -->
+        <ul>
+          <li><a href="/"><span>Главная</span></a></li>
+          <li><span>Ремонт</span></li>
+        </ul>
+      </div>
+      <!-- /.breadcrumbs -->
+    </div>
+    <!-- /.container -->
+  </section>
+  <section class='contentpageblock'>
+    <div class="contentpage">
+      <div class="container">
+        <h1 class="blocktitle text-lgray uppercase text-2xl">
+          Ремонт Multivac
+        </h1>
+        <div class="asidepage detailpage">
+          <div class="asidepage__aside">
+            <div class="detailpage__image">
+              <div class="brandlogo detailpage__image">
+                <div class="brandlogo__img detailpage__img"><img src="img/brand1.svg" alt=""></div>
+              </div>
+              <!-- /.brandlogo -->
+            </div>
+            <!-- /.detailpage__image -->
+            <div class="detailpage__callback">
+              <a href="#modal_remont" data-toggle='modal' class="button button_responsive decoration-none">Оставить заявку на ремонт</a>
+            </div>
+          </div>
+          <!-- /.asidepage__aside -->
+          <div class="asidepage__main">
+            <div class="asidepage__content content">
+              <div class="description">
+                <p>Сотрудники компании БВ ГРУПП имеют огромный опыт по ремонту вакуумных упаковщиков марки Multivac. Наши сотрудники готовы произвести ремонт любой сложности в кротчайшие сроки. Производя ремонтные работы на вакуумных упаковщиках multivac c100, наша компания использует только оригинальные запчасти, которые всегда есть в наличии.</p>
+                <p>Мы с пониманием относимся к нашим клиентам и готовы оказать любое содействие со своей стороны для обеспечения бесперебойной работы вашего оборудования. Сломанный вакуумный упаковщик multivac c100 и долгий его ремонт могут доставить пользователю ряд не нужных проблем, поэтому наша компания старается выполнять свою работу оперативно и качественно. Даже в самых сложных ситуациях, когда ремонт multivac c100 требует длительного времени, а у клиента этого времени нет-ему нужно продолжать работать, Мы предоставляем на время ремонта подменное оборудование со схожими характеристиками. Довольный клиент – это основа нашей работы!
+                </p>
+              </div>
+              <!-- /.description -->
+              <div class="blocktitle text-lgray text-2lg">
+                Проблем, при работе с вакуумным упаковщиком multivac c100, может возникнуть очень много, чаще всего эти проблемы проявляются так:
+              </div>
+              <div class="list list_red text-lgray">
+                <ul>
+                  <li>Плохо или недостаточно откачивает воздух (плохой вакуум)</li>
+                  <li>Плохо или вообще не запаивает пакет</li>
+                  <li>Пакеты не держат вакуум</li>
+                  <li>Неисправна плата управления</li>
+                  <li>Не работает датчик вакуума</li>
+                  <li>Прижимная крышка не поднимется</li>
+                  <li>Компрессор слишком громко стал работать</li>
+                  <li>В камеру попадает масло, возможно появление дыма и неприятного запаха</li>
+                </ul>
+              </div>
+              <!-- /.list -->
+              <div class="blocktitle text-lgray text-2lg">
+                Цены на ремонт Multivac
+              </div>
+              <div class="tablewrapper">
+              <table>
+                <thead>
+                  <tr>
+                    <th>Наименование работ</th>
+                    <th>Цена</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Диагностика прибора в сервисном центре</td>
+                    <td>Бесплатно</td>
+                  </tr>
+                  <tr>
+                    <td>Выездная диагностика мастера</td>
+                    <td>3 000 руб.</td>
+                  </tr>
+                  <tr>
+                    <td>Замена элементов блоков</td>
+                    <td>от 2 000 руб.</td>
+                  </tr>
+                  <tr>
+                    <td>Ремонт и замена комплектующих прибора</td>
+                    <td>от 1 500 руб.</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div><!-- /.tablewrapper -->
+            </div>
+            <!-- /.asidepage__content -->
+            <div class="videoslider slidersection">
+              <div class="heading flex justify-between">
+                <div class="blocktitle text-lgray  text-2lg">
+                  Видео
+                </div>
+                <div class="sliderArrows flex onlyDesktop ">
+                  <div class="sertslider__arrowleft cursor-pointer sliderLeft">
+                    <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_3_185)">
+<path d="M5.15545 4.59427C5.26491 4.5943 5.37187 4.62698 5.46265 4.68814C5.55343 4.74929 5.6239 4.83614 5.66504 4.93758C5.70618 5.03901 5.71612 5.15041 5.6936 5.25752C5.67107 5.36464 5.6171 5.4626 5.53859 5.53886L2.81079 8.26666H16.5164C16.5893 8.26563 16.6616 8.2791 16.7293 8.30628C16.7969 8.33345 16.8584 8.3738 16.9104 8.42498C16.9623 8.47615 17.0035 8.53713 17.0316 8.60437C17.0597 8.67161 17.0742 8.74377 17.0742 8.81666C17.0742 8.88955 17.0597 8.96171 17.0316 9.02896C17.0035 9.0962 16.9623 9.15718 16.9104 9.20835C16.8584 9.25953 16.7969 9.29987 16.7293 9.32705C16.6616 9.35423 16.5893 9.36769 16.5164 9.36666H2.81079L5.53859 12.0945C5.59137 12.1451 5.63351 12.2058 5.66254 12.273C5.69158 12.3402 5.70691 12.4125 5.70765 12.4856C5.7084 12.5588 5.69454 12.6314 5.66688 12.6991C5.63922 12.7669 5.59832 12.8284 5.54658 12.8802C5.49483 12.9319 5.43329 12.9728 5.36554 13.0005C5.29779 13.0281 5.22521 13.042 5.15204 13.0413C5.07887 13.0405 5.00658 13.0252 4.93941 12.9962C4.87224 12.9671 4.81153 12.925 4.76085 12.8722L1.09419 9.20553C0.991083 9.10238 0.933163 8.96251 0.933163 8.81666C0.933163 8.67082 0.991083 8.53095 1.09419 8.4278L4.76085 4.76113C4.81212 4.70834 4.87346 4.66636 4.94124 4.6377C5.00902 4.60904 5.08186 4.59427 5.15545 4.59427Z" fill="#343C4B"/>
+</g>
+<defs>
+<clipPath id="clip0_3_185">
+<rect width="17.6" height="17.6" fill="white" transform="matrix(-1 0 0 1 17.7998 0.200012)"/>
+</clipPath>
+</defs>
+</svg>
+
+                  </div>
+                  <div class="sertslider__arrowright cursor-pointer sliderRight">
+                    <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_105_23)">
+<path d="M12.8445 4.59428C12.7351 4.59431 12.6281 4.62699 12.5373 4.68815C12.4465 4.74931 12.3761 4.83616 12.3349 4.93759C12.2938 5.03902 12.2838 5.15042 12.3064 5.25754C12.3289 5.36465 12.3829 5.46261 12.4614 5.53888L15.1892 8.26668H1.48358C1.4107 8.26565 1.33834 8.27911 1.27071 8.30629C1.20308 8.33347 1.14152 8.37382 1.08962 8.42499C1.03771 8.47617 0.9965 8.53714 0.968369 8.60439C0.940237 8.67163 0.925751 8.74379 0.925751 8.81668C0.925751 8.88957 0.940237 8.96173 0.968369 9.02897C0.9965 9.09621 1.03771 9.15719 1.08962 9.20837C1.14152 9.25954 1.20308 9.29989 1.27071 9.32707C1.33834 9.35424 1.4107 9.36771 1.48358 9.36668H15.1892L12.4614 12.0945C12.4086 12.1452 12.3665 12.2059 12.3374 12.273C12.3084 12.3402 12.2931 12.4125 12.2923 12.4857C12.2916 12.5588 12.3054 12.6314 12.3331 12.6992C12.3608 12.7669 12.4017 12.8285 12.4534 12.8802C12.5051 12.9319 12.5667 12.9728 12.6344 13.0005C12.7022 13.0282 12.7748 13.042 12.8479 13.0413C12.9211 13.0405 12.9934 13.0252 13.0606 12.9962C13.1277 12.9671 13.1884 12.925 13.2391 12.8722L16.9058 9.20555C17.0089 9.1024 17.0668 8.96252 17.0668 8.81668C17.0668 8.67083 17.0089 8.53096 16.9058 8.42781L13.2391 4.76115C13.1878 4.70835 13.1265 4.66638 13.0587 4.63772C12.991 4.60906 12.9181 4.59429 12.8445 4.59428Z" fill="#343C4B"/>
+</g>
+<defs>
+<clipPath id="clip0_105_23">
+<rect width="17.6" height="17.6" fill="white" transform="translate(0.200195 0.200012)"/>
+</clipPath>
+</defs>
+</svg>
+
+                  </div>
+                </div>
+              </div>
+              <div class="videoslider__container">
+                <div class="videoslider__slider slidersection__slider">
+                  <div class="videoslider__slide slidersection__slide">
+                    <div class="videoslider__content">
+                      <a class="youtubepopup" href="#!" data-link="//www.youtube.com/embed/s5Lcgs1k0hA?enablejsapi=1" tabindex="0">
+                        <div class="videoslider__image">
+                          <div class="videoslider__img">
+                            <img src="//img.youtube.com/vi/s5Lcgs1k0hA/0.jpg" alt="">
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                    <!-- /.videoslider__content -->
+                  </div>
+                  <!-- /.videoslider__slide -->
+                  <div class="videoslider__slide slidersection__slide">
+                    <div class="videoslider__content">
+                      <a class="youtubepopup" href="#!" data-link="//www.youtube.com/embed/s5Lcgs1k0hA?enablejsapi=1" tabindex="0">
+                        <div class="videoslider__image">
+                          <div class="videoslider__img">
+                            <img src="//img.youtube.com/vi/s5Lcgs1k0hA/0.jpg" alt="">
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                    <!-- /.videoslider__content -->
+                  </div>
+                  <!-- /.videoslider__slide -->
+                  <div class="videoslider__slide slidersection__slide">
+                    <div class="videoslider__content">
+                      <a class="youtubepopup" href="#!" data-link="//www.youtube.com/embed/s5Lcgs1k0hA?enablejsapi=1" tabindex="0">
+                        <div class="videoslider__image">
+                          <div class="videoslider__img">
+                            <img src="//img.youtube.com/vi/s5Lcgs1k0hA/0.jpg" alt="">
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                    <!-- /.videoslider__content -->
+                  </div>
+                  <!-- /.videoslider__slide -->
+                  <div class="videoslider__slide slidersection__slide">
+                    <div class="videoslider__content">
+                      <a class="youtubepopup" href="#!" data-link="//www.youtube.com/embed/s5Lcgs1k0hA?enablejsapi=1" tabindex="0">
+                        <div class="videoslider__image">
+                          <div class="videoslider__img">
+                            <img src="//img.youtube.com/vi/s5Lcgs1k0hA/0.jpg" alt="">
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                    <!-- /.videoslider__content -->
+                  </div>
+                  <!-- /.videoslider__slide -->
+                </div>
+                <!-- /.videoslider__slider -->
+              </div>
+              <!-- /.videoslider__container -->
+            </div>
+            <!-- /.videoslider -->
+            <div class="photoslider slidersection">
+              <div class="heading flex justify-between">
+                <div class="blocktitle text-lgray  text-2lg">
+                  Фотогалерея
+                </div>
+                <div class="sliderArrows flex onlyDesktop ">
+                  <div class="sertslider__arrowleft cursor-pointer sliderLeft">
+                    <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_3_185)">
+<path d="M5.15545 4.59427C5.26491 4.5943 5.37187 4.62698 5.46265 4.68814C5.55343 4.74929 5.6239 4.83614 5.66504 4.93758C5.70618 5.03901 5.71612 5.15041 5.6936 5.25752C5.67107 5.36464 5.6171 5.4626 5.53859 5.53886L2.81079 8.26666H16.5164C16.5893 8.26563 16.6616 8.2791 16.7293 8.30628C16.7969 8.33345 16.8584 8.3738 16.9104 8.42498C16.9623 8.47615 17.0035 8.53713 17.0316 8.60437C17.0597 8.67161 17.0742 8.74377 17.0742 8.81666C17.0742 8.88955 17.0597 8.96171 17.0316 9.02896C17.0035 9.0962 16.9623 9.15718 16.9104 9.20835C16.8584 9.25953 16.7969 9.29987 16.7293 9.32705C16.6616 9.35423 16.5893 9.36769 16.5164 9.36666H2.81079L5.53859 12.0945C5.59137 12.1451 5.63351 12.2058 5.66254 12.273C5.69158 12.3402 5.70691 12.4125 5.70765 12.4856C5.7084 12.5588 5.69454 12.6314 5.66688 12.6991C5.63922 12.7669 5.59832 12.8284 5.54658 12.8802C5.49483 12.9319 5.43329 12.9728 5.36554 13.0005C5.29779 13.0281 5.22521 13.042 5.15204 13.0413C5.07887 13.0405 5.00658 13.0252 4.93941 12.9962C4.87224 12.9671 4.81153 12.925 4.76085 12.8722L1.09419 9.20553C0.991083 9.10238 0.933163 8.96251 0.933163 8.81666C0.933163 8.67082 0.991083 8.53095 1.09419 8.4278L4.76085 4.76113C4.81212 4.70834 4.87346 4.66636 4.94124 4.6377C5.00902 4.60904 5.08186 4.59427 5.15545 4.59427Z" fill="#343C4B"/>
+</g>
+<defs>
+<clipPath id="clip0_3_185">
+<rect width="17.6" height="17.6" fill="white" transform="matrix(-1 0 0 1 17.7998 0.200012)"/>
+</clipPath>
+</defs>
+</svg>
+
+                  </div>
+                  <div class="sertslider__arrowright cursor-pointer sliderRight">
+                    <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_105_23)">
+<path d="M12.8445 4.59428C12.7351 4.59431 12.6281 4.62699 12.5373 4.68815C12.4465 4.74931 12.3761 4.83616 12.3349 4.93759C12.2938 5.03902 12.2838 5.15042 12.3064 5.25754C12.3289 5.36465 12.3829 5.46261 12.4614 5.53888L15.1892 8.26668H1.48358C1.4107 8.26565 1.33834 8.27911 1.27071 8.30629C1.20308 8.33347 1.14152 8.37382 1.08962 8.42499C1.03771 8.47617 0.9965 8.53714 0.968369 8.60439C0.940237 8.67163 0.925751 8.74379 0.925751 8.81668C0.925751 8.88957 0.940237 8.96173 0.968369 9.02897C0.9965 9.09621 1.03771 9.15719 1.08962 9.20837C1.14152 9.25954 1.20308 9.29989 1.27071 9.32707C1.33834 9.35424 1.4107 9.36771 1.48358 9.36668H15.1892L12.4614 12.0945C12.4086 12.1452 12.3665 12.2059 12.3374 12.273C12.3084 12.3402 12.2931 12.4125 12.2923 12.4857C12.2916 12.5588 12.3054 12.6314 12.3331 12.6992C12.3608 12.7669 12.4017 12.8285 12.4534 12.8802C12.5051 12.9319 12.5667 12.9728 12.6344 13.0005C12.7022 13.0282 12.7748 13.042 12.8479 13.0413C12.9211 13.0405 12.9934 13.0252 13.0606 12.9962C13.1277 12.9671 13.1884 12.925 13.2391 12.8722L16.9058 9.20555C17.0089 9.1024 17.0668 8.96252 17.0668 8.81668C17.0668 8.67083 17.0089 8.53096 16.9058 8.42781L13.2391 4.76115C13.1878 4.70835 13.1265 4.66638 13.0587 4.63772C12.991 4.60906 12.9181 4.59429 12.8445 4.59428Z" fill="#343C4B"/>
+</g>
+<defs>
+<clipPath id="clip0_105_23">
+<rect width="17.6" height="17.6" fill="white" transform="translate(0.200195 0.200012)"/>
+</clipPath>
+</defs>
+</svg>
+
+                  </div>
+                </div>
+              </div>
+              <div class="photoslider__container">
+                <div class="photoslider__slider slidersection__slider">
+                  <div class="photoslider__slide slidersection__slide">
+                    <a class="photoslider__content" href="img/aboutblock1.jpg" data-lightbox="photoslider">
+                      <div class="photoslider__image">
+                        <div class="photoslider__img">
+                          <img src="img/aboutblock1.jpg" alt="">
+                        </div>
+                      </div>
+                    </a>
+                    <!-- /.photoslider__content -->
+                  </div>
+                  <!-- /.photoslider__slide -->
+                  <div class="photoslider__slide slidersection__slide">
+                    <a class="photoslider__content" href="img/aboutblock1.jpg" data-lightbox="photoslider">
+                      <div class="photoslider__image">
+                        <div class="photoslider__img">
+                          <img src="img/aboutblock1.jpg" alt="">
+                        </div>
+                      </div>
+                    </a>
+                    <!-- /.photoslider__content -->
+                  </div>
+                  <!-- /.photoslider__slide -->
+                  <div class="photoslider__slide slidersection__slide">
+                    <a class="photoslider__content" href="img/aboutblock1.jpg" data-lightbox="photoslider">
+                      <div class="photoslider__image">
+                        <div class="photoslider__img">
+                          <img src="img/aboutblock1.jpg" alt="">
+                        </div>
+                      </div>
+                    </a>
+                    <!-- /.photoslider__content -->
+                  </div>
+                  <!-- /.photoslider__slide -->
+                  <div class="photoslider__slide slidersection__slide">
+                    <a class="photoslider__content" href="img/aboutblock1.jpg" data-lightbox="photoslider">
+                      <div class="photoslider__image">
+                        <div class="photoslider__img">
+                          <img src="img/aboutblock1.jpg" alt="">
+                        </div>
+                      </div>
+                    </a>
+                    <!-- /.photoslider__content -->
+                  </div>
+                  <!-- /.photoslider__slide -->
+                  <div class="photoslider__slide slidersection__slide">
+                    <a class="photoslider__content" href="img/aboutblock1.jpg" data-lightbox="photoslider">
+                      <div class="photoslider__image">
+                        <div class="photoslider__img">
+                          <img src="img/aboutblock1.jpg" alt="">
+                        </div>
+                      </div>
+                    </a>
+                    <!-- /.photoslider__content -->
+                  </div>
+                  <!-- /.photoslider__slide -->
+                </div>
+                <!-- /.photoslider__slider -->
+              </div>
+              <!-- /.photoslider__container -->
+            </div>
+            <!-- /.photoslider -->
+            <div class="reviews slidersection">
+              <div class="heading flex justify-between">
+                <div class="blocktitle text-lgray  text-2lg">
+                  Отзывы
+                </div>
+                <div class="sliderArrows flex onlyDesktop ">
+                  <div class="sertslider__arrowleft cursor-pointer sliderLeft">
+                    <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_3_185)">
+<path d="M5.15545 4.59427C5.26491 4.5943 5.37187 4.62698 5.46265 4.68814C5.55343 4.74929 5.6239 4.83614 5.66504 4.93758C5.70618 5.03901 5.71612 5.15041 5.6936 5.25752C5.67107 5.36464 5.6171 5.4626 5.53859 5.53886L2.81079 8.26666H16.5164C16.5893 8.26563 16.6616 8.2791 16.7293 8.30628C16.7969 8.33345 16.8584 8.3738 16.9104 8.42498C16.9623 8.47615 17.0035 8.53713 17.0316 8.60437C17.0597 8.67161 17.0742 8.74377 17.0742 8.81666C17.0742 8.88955 17.0597 8.96171 17.0316 9.02896C17.0035 9.0962 16.9623 9.15718 16.9104 9.20835C16.8584 9.25953 16.7969 9.29987 16.7293 9.32705C16.6616 9.35423 16.5893 9.36769 16.5164 9.36666H2.81079L5.53859 12.0945C5.59137 12.1451 5.63351 12.2058 5.66254 12.273C5.69158 12.3402 5.70691 12.4125 5.70765 12.4856C5.7084 12.5588 5.69454 12.6314 5.66688 12.6991C5.63922 12.7669 5.59832 12.8284 5.54658 12.8802C5.49483 12.9319 5.43329 12.9728 5.36554 13.0005C5.29779 13.0281 5.22521 13.042 5.15204 13.0413C5.07887 13.0405 5.00658 13.0252 4.93941 12.9962C4.87224 12.9671 4.81153 12.925 4.76085 12.8722L1.09419 9.20553C0.991083 9.10238 0.933163 8.96251 0.933163 8.81666C0.933163 8.67082 0.991083 8.53095 1.09419 8.4278L4.76085 4.76113C4.81212 4.70834 4.87346 4.66636 4.94124 4.6377C5.00902 4.60904 5.08186 4.59427 5.15545 4.59427Z" fill="#343C4B"/>
+</g>
+<defs>
+<clipPath id="clip0_3_185">
+<rect width="17.6" height="17.6" fill="white" transform="matrix(-1 0 0 1 17.7998 0.200012)"/>
+</clipPath>
+</defs>
+</svg>
+
+                  </div>
+                  <div class="sertslider__arrowright cursor-pointer sliderRight">
+                    <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_105_23)">
+<path d="M12.8445 4.59428C12.7351 4.59431 12.6281 4.62699 12.5373 4.68815C12.4465 4.74931 12.3761 4.83616 12.3349 4.93759C12.2938 5.03902 12.2838 5.15042 12.3064 5.25754C12.3289 5.36465 12.3829 5.46261 12.4614 5.53888L15.1892 8.26668H1.48358C1.4107 8.26565 1.33834 8.27911 1.27071 8.30629C1.20308 8.33347 1.14152 8.37382 1.08962 8.42499C1.03771 8.47617 0.9965 8.53714 0.968369 8.60439C0.940237 8.67163 0.925751 8.74379 0.925751 8.81668C0.925751 8.88957 0.940237 8.96173 0.968369 9.02897C0.9965 9.09621 1.03771 9.15719 1.08962 9.20837C1.14152 9.25954 1.20308 9.29989 1.27071 9.32707C1.33834 9.35424 1.4107 9.36771 1.48358 9.36668H15.1892L12.4614 12.0945C12.4086 12.1452 12.3665 12.2059 12.3374 12.273C12.3084 12.3402 12.2931 12.4125 12.2923 12.4857C12.2916 12.5588 12.3054 12.6314 12.3331 12.6992C12.3608 12.7669 12.4017 12.8285 12.4534 12.8802C12.5051 12.9319 12.5667 12.9728 12.6344 13.0005C12.7022 13.0282 12.7748 13.042 12.8479 13.0413C12.9211 13.0405 12.9934 13.0252 13.0606 12.9962C13.1277 12.9671 13.1884 12.925 13.2391 12.8722L16.9058 9.20555C17.0089 9.1024 17.0668 8.96252 17.0668 8.81668C17.0668 8.67083 17.0089 8.53096 16.9058 8.42781L13.2391 4.76115C13.1878 4.70835 13.1265 4.66638 13.0587 4.63772C12.991 4.60906 12.9181 4.59429 12.8445 4.59428Z" fill="#343C4B"/>
+</g>
+<defs>
+<clipPath id="clip0_105_23">
+<rect width="17.6" height="17.6" fill="white" transform="translate(0.200195 0.200012)"/>
+</clipPath>
+</defs>
+</svg>
+
+                  </div>
+                </div>
+              </div>
+              <div class="reviewsslider__container shadowslider">
+                <div class="reviewsslider__slider ">
+                  <div class="reviewsslider__slide  shadowslide">
+                    <div class="reviews__content">
+                      <div class="reviews__header">
+                        <div class="reviews__name">Иван Иванов</div>
+                        <div class="reviews__rating">
+                          <div class="rating">
+                            <div class="rating__value">
+                              <span>4</span> <!-- сюда значение рейтинга 1-5 -->
+                            </div>
+                            <span class="score">
+                              <div class="score-wrap">
+                                <span class="rat-stars-active" style="width: 80px;">
+                                <img src="img/start_active.svg" alt="">
+                                <img src="img/start_active.svg" alt="">
+                                <img src="img/start_active.svg" alt="">
+                                <img src="img/start_active.svg" alt="">
+                                <img src="img/start_active.svg" alt="">
+                                </span>
+                                <span class="stars-inactive">
+                                <img src="img/start_unactive.svg" alt="">
+                                <img src="img/start_unactive.svg" alt="">
+                                <img src="img/start_unactive.svg" alt="">
+                                <img src="img/start_unactive.svg" alt="">
+                                <img src="img/start_unactive.svg" alt="">
+                                </span>
+                              </div>
+                            </span>
+                          </div>
+                        </div>
+                        <!-- /.reviews__raring -->
+                      </div>
+                      <!-- /.reviews__header -->
+                      <div class="reviews__subheader">Коммерческий директор ООО Вакуум</div>
+                      <div class="reviews__text">Боялся, что коммерческая организация не выполнит работу качественно, потому что проекты в бюджетных учреждениях не очень большие и не такие ценные, как на крупных предприятиях. Даже не думал, что Allcorp3 так ответственно возьметс...</div>
+                    </div>
+                    <!-- /.reviews__content -->
+                  </div>
+                  <!-- /.reviewsslider__slide -->
+                  <div class="reviewsslider__slide  shadowslide">
+                    <div class="reviews__content">
+                      <div class="reviews__header">
+                        <div class="reviews__name">Иван </div>
+                        <div class="reviews__rating">
+                          <div class="rating">
+                            <div class="rating__value">
+                              <span>4</span> <!-- сюда значение рейтинга 1-5 -->
+                            </div>
+                            <span class="score">
+                              <div class="score-wrap">
+                                <span class="rat-stars-active" style="width: 80px;">
+                                <img src="img/start_active.svg" alt="">
+                                <img src="img/start_active.svg" alt="">
+                                <img src="img/start_active.svg" alt="">
+                                <img src="img/start_active.svg" alt="">
+                                <img src="img/start_active.svg" alt="">
+                                </span>
+                                <span class="stars-inactive">
+                                <img src="img/start_unactive.svg" alt="">
+                                <img src="img/start_unactive.svg" alt="">
+                                <img src="img/start_unactive.svg" alt="">
+                                <img src="img/start_unactive.svg" alt="">
+                                <img src="img/start_unactive.svg" alt="">
+                                </span>
+                              </div>
+                            </span>
+                          </div>
+                        </div>
+                        <!-- /.reviews__raring -->
+                      </div>
+                      <!-- /.reviews__header -->
+                      <div class="reviews__subheader">Коммерческий директор ООО Вакуум</div>
+                      <div class="reviews__text">Боялся, что коммерческая организация не выполнит работу качественно, потому что проекты в бюджетных учреждениях не очень большие и не такие ценные, как на крупных предприятиях. Даже не думал, что Allcorp3 так ответственно возьметс...</div>
+                    </div>
+                    <!-- /.reviews__content -->
+                  </div>
+                  <!-- /.reviewsslider__slide -->
+                </div>
+              </div>
+            </div>
+            <div class="reviews__button">
+              <a href="#modal_review" data-toggle="modal" class="button button_icon decoration-none">
+              <img src="img/edit.svg" alt="">
+              <span>Оставить отзыв</span>              
+              </a>
+            </div>
+            <div class="backward">
+              <a href="#">
+                <img src="img/leftarrow.svg" alt="">
+                <span>Назад к списку</span>
+              </a>
+            </div><!-- /.backward -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+<section>
+  <footer id="footer" class="footer clearfix">
+    <div class="footer__main">
+      <div class="container">
+        <div class="footer__cols">
+          <div class="footer__col">
+            <div class="footer__info">
+              <div class="footer__logo">
+                <a href="#top" class='scrollTo flex items-center'>
+                  <img src="img/logo1.svg" alt="">
+                  <img src="img/logo2.svg" alt="">
+                </a>
+              </div>
+              <div class="socials__items flex items-center">
+                <div class="socials__item"><a href="" target="_blank"><img src="img/Instagram.svg" alt=""></a></div>
+                <div class="socials__item"><a href="" target="_blank"><img src="img/YouTube.svg" alt=""></a></div>
+                <div class="socials__item"><a href="" target="_blank"><img src="img/Facebook.svg" alt=""></a></div>
+              </div>
+            </div>
+          </div>
+          <div class="footer__col">
+            <div class="footer__email">
+              <a href="mailto:info@remvac.ru" class="linkemail">info@remvac.ru</a>
+            </div>
+          </div>
+          <div class="footer__col">
+            <div class="header__item flex items-center ">
+              <div class="header__block  flex items-center justify-center"></div>
+                <div class="header__phone">
+                  <div class="phone flex items-center ">
+                    <a href="tel:84954775362" class="text-white text-xl decoration-none">8 495 477 53 62</a>
+                    <span class="chevtrondown pl-6">
+                      <img src="img/chevron-down.svg" alt="">
+                    </span>
+                  </div><!-- /.phone -->
+                  <div class="header__status">
+                    <span class="status__icon"><img src="img/status.svg" alt=""></span>
+                    <span class="status__text pl-7 text-white text-md">Мы на связи</span>
+                  </div><!-- /.header__status -->
+                </div><!-- /.header__phone -->
+                <div class="header__callback">
+                  <div class="callback">
+                    <a href="#modal_callback" data-toggle='modal' class="button decoration-none">Заказать звонок</a>
+                  </div><!-- /.callback -->
+                </div><!-- /.header__callback -->
+                
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer__bottom border-t border-gray border-2">
+      <div class="container">
+        <div class="footer__bottomcontent flex items-center justify-between">
+          <div class="footer__copy">© 2022 REMVAC. Все права защищены</div><!-- /.footer__copy -->
+          <div class="footer__links flex">
+            <a href="">Политика обработки персональных данных</a>
+            <a href="">Создание сайта - EMPIS</a>
+          </div><!-- /.footer__links -->
+        </div><!-- /.footer__bottomcontent -->
+      </div><!-- /.container -->
+    </div><!-- /.footer__bottom -->
+  </footer>
+  <!-- <a href="#top" class="totop scrollTo"><img src="img/totop.svg" alt=""></a>-->
+</section>
+
+<div id="video-popup">
+  <span id="video-close">&times;</span>
+  <div id="video-view"></div>
+</div>
+<!-- /#video-popup -->
+
+<div id="modal_callback" class="modal fade">
+  <div class="modal-dialog">
+     <button type="button" class="close" data-dismiss="modal" aria-hidden="true"><img src="img/close.svg"></button>
+     <div class="modal-content">
+        <div class="modal-body">
+           <div class="modal__content">
+              <div class="modal-title">Заказать звонок</div>
+              <div class="modal__form">
+                 <form>
+                    <div class="form-group">
+                      <label for="">Ваше имя <span class="required">*</span></label>
+                       <input required type="text" name="" placeholder="Ваше имя">
+                    </div>
+                    <div class="form-group">
+                        <label for="">Ваш телефон <span class="required">*</span></label>
+                        <input required class="input-error" type="tel" name="" placeholder="+7 ___ ___ __ __">
+                        <span class="error-text">Error text</span>
+                    </div>
+                    <div class="form-group">
+                       <div class="check">
+                          <input checked type="checkbox" id="checkbox_modal_callback"> 
+                          <label for="checkbox_modal_callback">Я согласен с условиями обработки <a href="">Персональных данных</a></label>
+                       </div>
+                    </div>
+                    <div class="form-group form-group_submit">
+                       <button class="button button_large" type="submit">Отправить</button>
+                    </div>
+                 </form>
+              </div>
+           </div>
+        </div>
+     </div>
+  </div>
+</div>
+
+<div id="modal_service" class="modal fade">
+  <div class="modal-dialog">
+     <button type="button" class="close" data-dismiss="modal" aria-hidden="true"><img src="img/close.svg"></button>
+     <div class="modal-content">
+        <div class="modal-body">
+           <div class="modal__content">
+              <div class="modal-title">Заявка на услугу</div>
+              <div class="modal__form">
+                 <form>
+                    <div class="form-group">
+                      <label for="">Ваше имя <span class="required">*</span></label>
+                       <input required type="text" name="" placeholder="Ваше имя">
+                    </div>
+                    <div class="form-group">
+                        <label for="">Ваш телефон <span class="required">*</span></label>
+                        <input class='input-error' required type="tel" name="" placeholder="+7 ___ ___ __ __">
+                        <span class="error-text">Error text</span>
+
+                    </div>
+                    <div class="form-group">
+                        <label for="">Ваши комментарии</span></label>
+                        <textarea name="" id="" rows="4"></textarea>
+                    </div>
+                    <div class="form-group">
+                       <div class="check">
+                          <input checked type="checkbox" id="modal_service_callback"> 
+                          <label for="modal_service_callback">Я согласен с условиями обработки <a href="">Персональных данных</a></label>
+                       </div>
+                    </div>
+                    <div class="form-group form-group_submit">
+                       <button class="button button_large" type="submit">Отправить</button>
+                    </div>
+                 </form>
+              </div>
+           </div>
+        </div>
+     </div>
+  </div>
+</div>
+
+<div id="modal_remont" class="modal fade">
+  <div class="modal-dialog">
+     <button type="button" class="close" data-dismiss="modal" aria-hidden="true"><img src="img/close.svg"></button>
+     <div class="modal-content">
+        <div class="modal-body">
+           <div class="modal__content">
+              <div class="modal-title">Заявка на ремонт</div>
+              <div class="modal__form">
+                 <form>
+                    <div class="form-group">
+                      <label for="">Ваше имя <span class="required">*</span></label>
+                       <input required type="text" name="" placeholder="Ваше имя">
+                    </div>
+                    <div class="form-group">
+                        <label for="">Ваш телефон <span class="required">*</span></label>
+                        <input class='input-error' required type="tel" name="" placeholder="+7 ___ ___ __ __">
+                        <span class="error-text">Error text</span>
+
+                    </div>
+                    <div class="form-group">
+                        <label for="">Ваши комментарии</span></label>
+                        <textarea name="" id="" rows="4"></textarea>
+                    </div>
+                    <div class="form-group">
+                       <div class="check">
+                          <input checked type="checkbox" id="modal_remont_checkbox"> 
+                          <label for="modal_remont_checkbox">Я согласен с условиями обработки <a href="">Персональных данных</a></label>
+                       </div>
+                    </div>
+                    <div class="form-group form-group_submit">
+                       <button class="button button_large" type="submit">Отправить</button>
+                    </div>
+                 </form>
+              </div>
+           </div>
+        </div>
+     </div>
+  </div>
+</div>
+
+<div id="modal_review" class="modal fade">
+  <div class="modal-dialog">
+     <button type="button" class="close" data-dismiss="modal" aria-hidden="true"><img src="img/close.svg"></button>
+     <div class="modal-content">
+        <div class="modal-body">
+           <div class="modal__content">
+              <div class="modal-title">ОСТАВИТЬ ОТЗЫВ</div>
+              <div class="modal__form">
+                 <form>
+                    <div class="form-group">
+                      <label for="">ФИО <span class="required">*</span></label>
+                       <input required type="text" name="" placeholder="Ваше имя">
+                    </div>
+                    <div class="form-group">
+                        <label for="">Email <span class="required">*</span></label>
+                        <input required class='input-error' type="tel" name="" placeholder="+7 ___ ___ __ __">
+                        <span class="error-text">Error text</span>
+
+                    </div>
+                    <div class="form-group">
+                        <label for="">Должность <span class="required">*</span></label>
+                        <input required type="tel" name="" placeholder="">
+                    </div>
+                    <div class="form-group">
+                        <label for="">Текст отзыва</span></label>
+                        <textarea name="" id="" rows="4"></textarea>
+                    </div>
+                    <div class="form-group flex justify-between items-center ratingform">
+                        <span class='caption'>Ваша оценка</span>
+                        <div class="rating rating_form">
+                          <div class="rating__value">
+                            <input type="text" name="rating">
+                          </div>
+                          <div class="rating__formvalue">
+                            <span>0</span> 
+                          </div>
+                          <span class="score">
+                            <div class="score-wrap">
+                              <span class="rat-stars-active" style="width: 84px;">
+                              <img src="img/start_active.svg" alt="">
+                              <img src="img/start_active.svg" alt="">
+                              <img src="img/start_active.svg" alt="">
+                              <img src="img/start_active.svg" alt="">
+                              <img src="img/start_active.svg" alt="">
+                              </span>
+                              <span class="stars-inactive">
+                              <img src="img/start_unactive.svg" alt="">
+                              <img src="img/start_unactive.svg" alt="">
+                              <img src="img/start_unactive.svg" alt="">
+                              <img src="img/start_unactive.svg" alt="">
+                              <img src="img/start_unactive.svg" alt="">
+                              </span>
+                            </div>
+                          </span>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                       <div class="check">
+                          <input checked type="checkbox" id="modal_review_checkbox"> 
+                          <label for="modal_review_checkbox">Я согласен с условиями обработки <a href="">Персональных данных</a></label>
+                       </div>
+                    </div>
+                    <div class="form-group form-group_submit">
+                       <button class="button button_large" type="submit">Отправить</button>
+                    </div>
+                 </form>
+              </div>
+           </div>
+        </div>
+     </div>
+  </div>
+</div>
+
+<script src="js/jquery-3.6.0.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.maskedinput.min.js"></script>
+
+<script src="js/slick.min.js"></script>
+<script src="js/lightbox.min.js"></script>
+<script src="js/maskedinput.min.js"></script><script src="js/wow.min.js"></script>
+
+<script src="js/bundle.js"></script>
+
+
+
+</body>
+
+</html>

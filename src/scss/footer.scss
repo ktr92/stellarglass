@@ -1,0 +1,155 @@
+@import './partials/params.scss';
+@import './partials/mixins.scss';
+
+#footer {
+  background: $dgray;
+
+}
+
+.footer {
+  .socials__item a {
+    border-width: 2px;
+  }
+  .linkemail {
+    font-size: 18px;
+    line-height: 18px;
+  }
+}
+
+.footer__main {
+
+  padding: 55px 0
+}
+
+.footer__bottom {
+  padding: 39px 0 57px 0;
+  font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 16px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+}
+
+.footer__links a {
+  font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 16px;
+/* identical to box height */
+padding-bottom: 6px;
+border-bottom: 2px solid #0068D7;
+display: block;
+margin-right: 48px;
+color: #FFFFFF;
+padding-top: 2px;
+&:hover {
+  color: #fff;
+    background:#0068D7;
+
+}
+
+&:focus {
+  color: #fff;
+  background: linear-gradient(transparent 50%, #0068D7 50%) no-repeat;
+
+}
+}
+
+.footer__logo {
+  margin-right: 31px;
+}
+
+.footer__cols {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 -15px;
+  align-items: center;
+}
+
+.footer__col {
+  padding: 0 15px;
+
+}
+
+.footer__info {
+  display: flex;
+  align-items: center;
+}
+
+
+.footer__text {
+  font-family: 'Circe';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+
+  color: #FFFFFF;
+}
+
+.footer__link {
+  position: relative;
+  padding-left: 42px;
+  margin-left: 34px;
+
+  &:after {
+    content: "";
+    background: rgba(255, 255, 255, 0.3);
+    width: 3px;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+}
+
+
+
+.footer__link:first-child {
+  padding-left: 0;
+  margin-left: 0;
+
+  &:after {
+    display: none;
+  }
+}
+
+.footer__link a {
+  font-family: 'Circe';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 27px;
+  /* identical to box height */
+
+  text-decoration: none;
+  border-bottom: 3px solid rgba(255, 255, 255, 0.3);
+  ;
+  color: #FFFFFF;
+
+  &:hover {
+    color: #FF8806;
+    border-bottom: 3px solid #FF8806;
+    ;
+  }
+
+  &:focus {
+    color: #FF8806;
+    border-bottom: 3px solid #FF8806;
+    ;
+    opacity: 0.5;
+  }
+}
+
+
+.footer__links {
+  display: flex;
+  align-items: center;
+}
+
+.iconsblock__items {
+  padding-left: 30px;
+}

@@ -1,0 +1,50 @@
+.header__wrapper {
+  padding: 20px 0 20px 0;
+  border-bottom: 1px solid #000;
+}
+
+
+.header__row {
+  margin: 0 -10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__item {
+  padding: 0 10px;
+}
+
+
+.mainmenu {}
+
+.header__phone {}
+
+.phone {
+  a {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 22px;
+    line-height: 26px;
+    /* identical to box height */
+    white-space: nowrap;
+    color: #FFFFFF;
+
+    &:hover {
+      color: #fff;
+    }
+  }
+}
+
+
+@media (max-width: 1450px) {
+  .header__menu {
+    ul {
+      margin: 0 -10px;
+    }
+
+    li {
+      padding: 0 10px;
+    }
+  }
+}

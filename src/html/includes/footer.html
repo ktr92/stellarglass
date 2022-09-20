@@ -1,0 +1,276 @@
+<section>
+  <footer id="footer" class="footer clearfix">
+    <div class="footer__main">
+      <div class="container">
+        <div class="footer__cols">
+          <div class="footer__col">
+            <div class="footer__info">
+              <div class="footer__logo">
+                <a href="#top" class='scrollTo flex items-center'>
+                  <img src="img/logo1.svg" alt="">
+                  <img src="img/logo2.svg" alt="">
+                </a>
+              </div>
+              <div class="socials__items flex items-center">
+                <div class="socials__item"><a href="" target="_blank"><img src="img/Instagram.svg" alt=""></a></div>
+                <div class="socials__item"><a href="" target="_blank"><img src="img/YouTube.svg" alt=""></a></div>
+                <div class="socials__item"><a href="" target="_blank"><img src="img/Facebook.svg" alt=""></a></div>
+              </div>
+            </div>
+          </div>
+          <div class="footer__col">
+            <div class="footer__email">
+              <a href="mailto:info@remvac.ru" class="linkemail">info@remvac.ru</a>
+            </div>
+          </div>
+          <div class="footer__col">
+            <div class="header__item flex items-center ">
+              <div class="header__block  flex items-center justify-center"></div>
+                <div class="header__phone">
+                  <div class="phone flex items-center ">
+                    <a href="tel:84954775362" class="text-white text-xl decoration-none">8 495 477 53 62</a>
+                    <span class="chevtrondown pl-6">
+                      <img src="img/chevron-down.svg" alt="">
+                    </span>
+                  </div><!-- /.phone -->
+                  <div class="header__status">
+                    <span class="status__icon"><img src="img/status.svg" alt=""></span>
+                    <span class="status__text pl-7 text-white text-md">Мы на связи</span>
+                  </div><!-- /.header__status -->
+                </div><!-- /.header__phone -->
+                <div class="header__callback">
+                  <div class="callback">
+                    <a href="#modal_callback" data-toggle='modal' class="button decoration-none">Заказать звонок</a>
+                  </div><!-- /.callback -->
+                </div><!-- /.header__callback -->
+                
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer__bottom border-t border-gray border-2">
+      <div class="container">
+        <div class="footer__bottomcontent flex items-center justify-between">
+          <div class="footer__copy">© 2022 REMVAC. Все права защищены</div><!-- /.footer__copy -->
+          <div class="footer__links flex">
+            <a href="">Политика обработки персональных данных</a>
+            <a href="">Создание сайта - EMPIS</a>
+          </div><!-- /.footer__links -->
+        </div><!-- /.footer__bottomcontent -->
+      </div><!-- /.container -->
+    </div><!-- /.footer__bottom -->
+  </footer>
+  <!-- <a href="#top" class="totop scrollTo"><img src="img/totop.svg" alt=""></a>-->
+</section>
+
+<div id="video-popup">
+  <span id="video-close">&times;</span>
+  <div id="video-view"></div>
+</div>
+<!-- /#video-popup -->
+
+<div id="modal_callback" class="modal fade">
+  <div class="modal-dialog">
+     <button type="button" class="close" data-dismiss="modal" aria-hidden="true"><img src="img/close.svg"></button>
+     <div class="modal-content">
+        <div class="modal-body">
+           <div class="modal__content">
+              <div class="modal-title">Заказать звонок</div>
+              <div class="modal__form">
+                 <form>
+                    <div class="form-group">
+                      <label for="">Ваше имя <span class="required">*</span></label>
+                       <input required type="text" name="" placeholder="Ваше имя">
+                    </div>
+                    <div class="form-group">
+                        <label for="">Ваш телефон <span class="required">*</span></label>
+                        <input required class="input-error" type="tel" name="" placeholder="+7 ___ ___ __ __">
+                        <span class="error-text">Error text</span>
+                    </div>
+                    <div class="form-group">
+                       <div class="check">
+                          <input checked type="checkbox" id="checkbox_modal_callback"> 
+                          <label for="checkbox_modal_callback">Я согласен с условиями обработки <a href="">Персональных данных</a></label>
+                       </div>
+                    </div>
+                    <div class="form-group form-group_submit">
+                       <button class="button button_large" type="submit">Отправить</button>
+                    </div>
+                 </form>
+              </div>
+           </div>
+        </div>
+     </div>
+  </div>
+</div>
+
+<div id="modal_service" class="modal fade">
+  <div class="modal-dialog">
+     <button type="button" class="close" data-dismiss="modal" aria-hidden="true"><img src="img/close.svg"></button>
+     <div class="modal-content">
+        <div class="modal-body">
+           <div class="modal__content">
+              <div class="modal-title">Заявка на услугу</div>
+              <div class="modal__form">
+                 <form>
+                    <div class="form-group">
+                      <label for="">Ваше имя <span class="required">*</span></label>
+                       <input required type="text" name="" placeholder="Ваше имя">
+                    </div>
+                    <div class="form-group">
+                        <label for="">Ваш телефон <span class="required">*</span></label>
+                        <input class='input-error' required type="tel" name="" placeholder="+7 ___ ___ __ __">
+                        <span class="error-text">Error text</span>
+
+                    </div>
+                    <div class="form-group">
+                        <label for="">Ваши комментарии</span></label>
+                        <textarea name="" id="" rows="4"></textarea>
+                    </div>
+                    <div class="form-group">
+                       <div class="check">
+                          <input checked type="checkbox" id="modal_service_callback"> 
+                          <label for="modal_service_callback">Я согласен с условиями обработки <a href="">Персональных данных</a></label>
+                       </div>
+                    </div>
+                    <div class="form-group form-group_submit">
+                       <button class="button button_large" type="submit">Отправить</button>
+                    </div>
+                 </form>
+              </div>
+           </div>
+        </div>
+     </div>
+  </div>
+</div>
+
+<div id="modal_remont" class="modal fade">
+  <div class="modal-dialog">
+     <button type="button" class="close" data-dismiss="modal" aria-hidden="true"><img src="img/close.svg"></button>
+     <div class="modal-content">
+        <div class="modal-body">
+           <div class="modal__content">
+              <div class="modal-title">Заявка на ремонт</div>
+              <div class="modal__form">
+                 <form>
+                    <div class="form-group">
+                      <label for="">Ваше имя <span class="required">*</span></label>
+                       <input required type="text" name="" placeholder="Ваше имя">
+                    </div>
+                    <div class="form-group">
+                        <label for="">Ваш телефон <span class="required">*</span></label>
+                        <input class='input-error' required type="tel" name="" placeholder="+7 ___ ___ __ __">
+                        <span class="error-text">Error text</span>
+
+                    </div>
+                    <div class="form-group">
+                        <label for="">Ваши комментарии</span></label>
+                        <textarea name="" id="" rows="4"></textarea>
+                    </div>
+                    <div class="form-group">
+                       <div class="check">
+                          <input checked type="checkbox" id="modal_remont_checkbox"> 
+                          <label for="modal_remont_checkbox">Я согласен с условиями обработки <a href="">Персональных данных</a></label>
+                       </div>
+                    </div>
+                    <div class="form-group form-group_submit">
+                       <button class="button button_large" type="submit">Отправить</button>
+                    </div>
+                 </form>
+              </div>
+           </div>
+        </div>
+     </div>
+  </div>
+</div>
+
+<div id="modal_review" class="modal fade">
+  <div class="modal-dialog">
+     <button type="button" class="close" data-dismiss="modal" aria-hidden="true"><img src="img/close.svg"></button>
+     <div class="modal-content">
+        <div class="modal-body">
+           <div class="modal__content">
+              <div class="modal-title">ОСТАВИТЬ ОТЗЫВ</div>
+              <div class="modal__form">
+                 <form>
+                    <div class="form-group">
+                      <label for="">ФИО <span class="required">*</span></label>
+                       <input required type="text" name="" placeholder="Ваше имя">
+                    </div>
+                    <div class="form-group">
+                        <label for="">Email <span class="required">*</span></label>
+                        <input required class='input-error' type="tel" name="" placeholder="+7 ___ ___ __ __">
+                        <span class="error-text">Error text</span>
+
+                    </div>
+                    <div class="form-group">
+                        <label for="">Должность <span class="required">*</span></label>
+                        <input required type="tel" name="" placeholder="">
+                    </div>
+                    <div class="form-group">
+                        <label for="">Текст отзыва</span></label>
+                        <textarea name="" id="" rows="4"></textarea>
+                    </div>
+                    <div class="form-group flex justify-between items-center ratingform">
+                        <span class='caption'>Ваша оценка</span>
+                        <div class="rating rating_form">
+                          <div class="rating__value">
+                            <input type="text" name="rating">
+                          </div>
+                          <div class="rating__formvalue">
+                            <span>0</span> 
+                          </div>
+                          <span class="score">
+                            <div class="score-wrap">
+                              <span class="rat-stars-active" style="width: 84px;">
+                              <img src="img/start_active.svg" alt="">
+                              <img src="img/start_active.svg" alt="">
+                              <img src="img/start_active.svg" alt="">
+                              <img src="img/start_active.svg" alt="">
+                              <img src="img/start_active.svg" alt="">
+                              </span>
+                              <span class="stars-inactive">
+                              <img src="img/start_unactive.svg" alt="">
+                              <img src="img/start_unactive.svg" alt="">
+                              <img src="img/start_unactive.svg" alt="">
+                              <img src="img/start_unactive.svg" alt="">
+                              <img src="img/start_unactive.svg" alt="">
+                              </span>
+                            </div>
+                          </span>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                       <div class="check">
+                          <input checked type="checkbox" id="modal_review_checkbox"> 
+                          <label for="modal_review_checkbox">Я согласен с условиями обработки <a href="">Персональных данных</a></label>
+                       </div>
+                    </div>
+                    <div class="form-group form-group_submit">
+                       <button class="button button_large" type="submit">Отправить</button>
+                    </div>
+                 </form>
+              </div>
+           </div>
+        </div>
+     </div>
+  </div>
+</div>
+
+<script src="//code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery.maskedinput/1.4.1/jquery.maskedinput.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/Swiper/8.2.4/swiper-bundle.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.js">
+</script>
+<script src="js/bundle.js"></script>
+
+
+
+</body>
+
+</html>

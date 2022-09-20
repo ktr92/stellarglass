@@ -1,0 +1,500 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+  <link rel="shortcut icon" href="favicon/favicon.ico" />
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  
+  <link rel="stylesheet" href="css/slick.min.css" />
+  <link rel="stylesheet" href="css/slick-theme.min.css" />
+  <link rel="stylesheet" href="css/lightbox.min.css" />
+  <link rel="stylesheet" href="css/animate.min.css" />
+
+  <link rel="stylesheet" href="css/style.bundle.css" />
+  <title>REMVAC.RU</title>
+</head>
+
+<body>
+<header id="header" class="header bg-gray">
+    <div class="header__wrapper  border-b border-gra border-2">
+      <div class="container" id='top'>
+      <div class="header__row flex items-center justify-betweeen">
+        <div class="header__item">
+          <div class="header__block  flex items-center justify-center">
+            <div class="header__logo  flex items-center justify-center ">
+              <img src="img/logo1.svg" alt="">
+              <img src="img/logo2.svg" alt="" class='pl-12'>
+            </div>
+            <div class="header__descr text-lg text-white uppercase onlyDesktop">
+              Ремонт и обслуживание <br>вакуумных упаковщиков
+            </div>
+          </div>
+        </div><!-- /.header__item -->
+        <div class="header__item onlyMobile">
+          <div class="menu js-menu">
+            <span class="menu__line"></span>
+            <span class="menu__line"></span>
+            <span class="menu__line"></span>
+          </div>
+        </div><!-- /.header__item -->
+        <div class="header__item flex items-center onlyDesktop">
+          <div class="header__block  flex items-center justify-center"></div>
+            <div class="header__phone">
+              <div class="phone flex items-center ">
+                <a href="tel:84954775362" class='text-white text-xl decoration-none'>8 495 477 53 62</a>
+                <span class='chevtrondown pl-6'>
+                  <img src="img/chevron-down.svg" alt="">
+                </span>
+              </div><!-- /.phone -->
+              <div class="header__status">
+                <span class="status__icon"><img src="img/status.svg" alt=""></span>
+                <span class="status__text pl-7 text-white text-md">Мы на связи</span>
+              </div><!-- /.header__status -->
+            </div><!-- /.header__phone -->
+            <div class="header__callback">
+              <div class="callback">
+                <a href="#modal_callback" data-toggle='modal' class='button decoration-none'>Заказать звонок</a>
+              </div><!-- /.callback -->
+            </div><!-- /.header__callback -->
+            <div class="header__search">
+              <span class="searchbtn cursor-pointer">
+                <img src="img/search.svg" alt="">
+              </span><!-- /.searchbtn -->    
+            </div><!-- /.header__search -->
+          </div>
+        </div><!-- /.header__item -->
+      </div><!-- /.header__row -->
+  </div>
+  <div class="searchblock ">
+    <div class="container">
+      <div class="searchblock__wrapper bg-gray-500 flex items-center">
+        <div class="searchblock__icon"><img src="img/search.svg" alt=""></div>
+        <div class="searchblock__input pl-9"><input type="text" placeholder='Я ищу...'></div>
+        <span class="searchclose">
+          &times;
+        </span><!-- /.searchclose -->
+      </div><!-- /.searchblock__wrapper -->
+    </div><!-- /.container -->
+  </div><!-- /.searchblock -->
+    <div class="header__menu onlyDesktop">
+      <div class="container">
+        <div class="mainmenu">
+          <ul class='flex w-full '>
+            <li class='parent'><a href="">О компании</a></li>
+            <li class='parent'>
+              <a href="">Ремонт</a>
+              <ul class="submenu">
+                <li><a href="">MULTIVAC</a></li>
+                <li><a href="">HENKELMAN</a></li>
+                <li><a href="">VAMA</a></li>
+                <li><a href="">APACH</a></li>
+                <li><a href="">EHVC</a></li>
+                <li><a href="">LUXSTAHL</a></li>
+              </ul><!-- /.submenu -->
+            </li>
+            <li class='parent'><a href="">Запчасти</a></li>
+            <li class='parent'><a href="">Прайс-лист</a></li>
+            <li class='parent'><a href="">Услуги</a></li>
+            <li class='parent'><a href="">Галерея</a></li>
+            <li class='parent'><a href="">Контакты</a></li>
+          </ul>
+        </div><!-- /.mainmenu -->
+       </div><!-- /.header__menu -->
+      </div><!-- /.container -->
+    </div>
+  </div><!-- /.container -->
+  <div class="mobilemenu onlyMobile bg-gray">
+      <div class="mainmenu bg-gray border-t border-gray">
+        <div class="container">
+          <ul class='mainmenu__list'>
+            <li class='parent'><a href="">О компании</a></li>
+              <li class='parent'>
+                <a href="">Ремонт</a>
+                <ul class="submenu">
+                  <li><a href="">MULTIVAC</a></li>
+                  <li><a href="">HENKELMAN</a></li>
+                  <li><a href="">VAMA</a></li>
+                  <li><a href="">APACH</a></li>
+                  <li><a href="">EHVC</a></li>
+                  <li><a href="">LUXSTAHL</a></li>
+                </ul><!-- /.submenu -->
+              </li>
+              <li class='parent'><a href="">Запчасти</a></li>
+              <li class='parent'><a href="">Прайс-лист</a></li>
+              <li class='parent'><a href="">Услуги</a></li>
+              <li class='parent'><a href="">Галерея</a></li>
+              <li class='parent'><a href="">Контакты</a></li>
+          </ul>
+        </div> 
+        <div class="mobilemenu__info onlyMobile  border-t border-gray">
+          <div class="container">
+          <div class="mobilemenu__socials socials">
+            <div class="socials__items flex items-center">
+              <div class="socials__item"><a href="" target='_blank'><img src="img/Instagram.svg" alt=""></a></div>
+              <div class="socials__item"><a href="" target='_blank'><img src="img/YouTube.svg" alt=""></a></div>
+              <div class="socials__item"><a href="" target='_blank'><img src="img/Facebook.svg" alt=""></a></div>
+            </div><!-- /.socials__items -->
+          </div>
+          <div class="mobilemenu__email">
+            <a href="mailto:info@remvac.ru" class="linkemail">info@remvac.ru</a>
+          </div>
+          <div class="mobilemenu__phone">
+            <div class="phone flex items-center ">
+              <a href="tel:84954775362" class='text-white text-xl decoration-none'>8 495 477 53 62</a>
+              <span class='chevtrondown pl-6'>
+                <img src="img/chevron-down.svg" alt="">
+              </span>
+            </div><!-- /.phone -->
+            <div class="header__status">
+              <span class="status__icon"><img src="img/status.svg" alt=""></span>
+              <span class="status__text pl-7 text-white text-md">Мы на связи</span>
+            </div><!-- /.header__status -->
+          </div><!-- /.mobilemenu__phone -->
+          <div class="mobilemenu__callback">
+            <div class="callback">
+              <a target="_blank" href="#" class='button decoration-none'>Заказать звонок</a>
+            </div><!-- /.callback -->
+          </div><!-- /.mobilemenu__callback -->
+        </div><!-- /.mobilemenu__info -->
+      </div><!-- /.mainmenu -->
+     </div><!-- /.header__menu -->
+    </div><!-- /.container -->
+  </div><!-- /.mobilemenu -->
+</header><!-- /#header.header -->
+<main>
+  <section class='breadcrumbsblock'>
+     <div class="container">
+        <div class="breadcrumbs">
+           <div class="breadcrumbs__icon">
+              <div class="breadcrumbs__home"><img src="img/home.svg" alt=""></div>
+              <!-- /.breadcrumbs__home -->
+           </div>
+           <!-- /.breadcrumbs__icon -->
+           <ul>
+              <li><a href="/"><span>Главная</span></a></li>
+              <li><span>Ремонт</span></li>
+           </ul>
+        </div>
+        <!-- /.breadcrumbs -->
+     </div>
+     <!-- /.container -->
+  </section>
+  <section class='contentpageblock'>
+     <div class="contentpage">
+        <div class="container">
+           <div class="errorpage">
+              <div class="errorpage__left">
+                 <div class="errorpage__404">
+                    <img src="img/404.svg" alt="">
+                 </div>
+                 <!-- /.errorpage__404 -->
+              </div>
+              <!-- /.errorpage__left -->
+              <div class="errorpage__right">
+                 <h1 class="blocktitle text-lgray uppercase text-2xl">
+                    Похоже, мы не можем найти нужную вам страницу
+                 </h1>
+                 <div class="errorpage__text">
+                    Вот несколько полезных ссылок
+                 </div>
+                 <!-- /.errorpage__text -->
+                 <div class="errorpage__links">
+                    <ul>
+                       <li><a href="/">Главная</a></li>
+                       <li><a href="/">Документация</a></li>
+                    </ul>
+                    <ul>
+                       <li><a href="/">Ремонт</a></li>
+                       <li><a href="/">Контакты</a></li>
+                    </ul>
+                 </div>
+                 <!-- /.errorpage__links -->
+              </div>
+              <!-- /.errorpage__right -->
+           </div>
+           <!-- /.errorpage -->
+        </div>
+        <!-- /.container -->
+     </div>
+     <!-- /.contentpage -->
+  </section>
+</main>
+<section>
+  <footer id="footer" class="footer clearfix">
+    <div class="footer__main">
+      <div class="container">
+        <div class="footer__cols">
+          <div class="footer__col">
+            <div class="footer__info">
+              <div class="footer__logo">
+                <a href="#top" class='scrollTo flex items-center'>
+                  <img src="img/logo1.svg" alt="">
+                  <img src="img/logo2.svg" alt="">
+                </a>
+              </div>
+              <div class="socials__items flex items-center">
+                <div class="socials__item"><a href="" target="_blank"><img src="img/Instagram.svg" alt=""></a></div>
+                <div class="socials__item"><a href="" target="_blank"><img src="img/YouTube.svg" alt=""></a></div>
+                <div class="socials__item"><a href="" target="_blank"><img src="img/Facebook.svg" alt=""></a></div>
+              </div>
+            </div>
+          </div>
+          <div class="footer__col">
+            <div class="footer__email">
+              <a href="mailto:info@remvac.ru" class="linkemail">info@remvac.ru</a>
+            </div>
+          </div>
+          <div class="footer__col">
+            <div class="header__item flex items-center ">
+              <div class="header__block  flex items-center justify-center"></div>
+                <div class="header__phone">
+                  <div class="phone flex items-center ">
+                    <a href="tel:84954775362" class="text-white text-xl decoration-none">8 495 477 53 62</a>
+                    <span class="chevtrondown pl-6">
+                      <img src="img/chevron-down.svg" alt="">
+                    </span>
+                  </div><!-- /.phone -->
+                  <div class="header__status">
+                    <span class="status__icon"><img src="img/status.svg" alt=""></span>
+                    <span class="status__text pl-7 text-white text-md">Мы на связи</span>
+                  </div><!-- /.header__status -->
+                </div><!-- /.header__phone -->
+                <div class="header__callback">
+                  <div class="callback">
+                    <a href="#modal_callback" data-toggle='modal' class="button decoration-none">Заказать звонок</a>
+                  </div><!-- /.callback -->
+                </div><!-- /.header__callback -->
+                
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer__bottom border-t border-gray border-2">
+      <div class="container">
+        <div class="footer__bottomcontent flex items-center justify-between">
+          <div class="footer__copy">© 2022 REMVAC. Все права защищены</div><!-- /.footer__copy -->
+          <div class="footer__links flex">
+            <a href="">Политика обработки персональных данных</a>
+            <a href="">Создание сайта - EMPIS</a>
+          </div><!-- /.footer__links -->
+        </div><!-- /.footer__bottomcontent -->
+      </div><!-- /.container -->
+    </div><!-- /.footer__bottom -->
+  </footer>
+  <!-- <a href="#top" class="totop scrollTo"><img src="img/totop.svg" alt=""></a>-->
+</section>
+
+<div id="video-popup">
+  <span id="video-close">&times;</span>
+  <div id="video-view"></div>
+</div>
+<!-- /#video-popup -->
+
+<div id="modal_callback" class="modal fade">
+  <div class="modal-dialog">
+     <button type="button" class="close" data-dismiss="modal" aria-hidden="true"><img src="img/close.svg"></button>
+     <div class="modal-content">
+        <div class="modal-body">
+           <div class="modal__content">
+              <div class="modal-title">Заказать звонок</div>
+              <div class="modal__form">
+                 <form>
+                    <div class="form-group">
+                      <label for="">Ваше имя <span class="required">*</span></label>
+                       <input required type="text" name="" placeholder="Ваше имя">
+                    </div>
+                    <div class="form-group">
+                        <label for="">Ваш телефон <span class="required">*</span></label>
+                        <input required class="input-error" type="tel" name="" placeholder="+7 ___ ___ __ __">
+                        <span class="error-text">Error text</span>
+                    </div>
+                    <div class="form-group">
+                       <div class="check">
+                          <input checked type="checkbox" id="checkbox_modal_callback"> 
+                          <label for="checkbox_modal_callback">Я согласен с условиями обработки <a href="">Персональных данных</a></label>
+                       </div>
+                    </div>
+                    <div class="form-group form-group_submit">
+                       <button class="button button_large" type="submit">Отправить</button>
+                    </div>
+                 </form>
+              </div>
+           </div>
+        </div>
+     </div>
+  </div>
+</div>
+
+<div id="modal_service" class="modal fade">
+  <div class="modal-dialog">
+     <button type="button" class="close" data-dismiss="modal" aria-hidden="true"><img src="img/close.svg"></button>
+     <div class="modal-content">
+        <div class="modal-body">
+           <div class="modal__content">
+              <div class="modal-title">Заявка на услугу</div>
+              <div class="modal__form">
+                 <form>
+                    <div class="form-group">
+                      <label for="">Ваше имя <span class="required">*</span></label>
+                       <input required type="text" name="" placeholder="Ваше имя">
+                    </div>
+                    <div class="form-group">
+                        <label for="">Ваш телефон <span class="required">*</span></label>
+                        <input class='input-error' required type="tel" name="" placeholder="+7 ___ ___ __ __">
+                        <span class="error-text">Error text</span>
+
+                    </div>
+                    <div class="form-group">
+                        <label for="">Ваши комментарии</span></label>
+                        <textarea name="" id="" rows="4"></textarea>
+                    </div>
+                    <div class="form-group">
+                       <div class="check">
+                          <input checked type="checkbox" id="modal_service_callback"> 
+                          <label for="modal_service_callback">Я согласен с условиями обработки <a href="">Персональных данных</a></label>
+                       </div>
+                    </div>
+                    <div class="form-group form-group_submit">
+                       <button class="button button_large" type="submit">Отправить</button>
+                    </div>
+                 </form>
+              </div>
+           </div>
+        </div>
+     </div>
+  </div>
+</div>
+
+<div id="modal_remont" class="modal fade">
+  <div class="modal-dialog">
+     <button type="button" class="close" data-dismiss="modal" aria-hidden="true"><img src="img/close.svg"></button>
+     <div class="modal-content">
+        <div class="modal-body">
+           <div class="modal__content">
+              <div class="modal-title">Заявка на ремонт</div>
+              <div class="modal__form">
+                 <form>
+                    <div class="form-group">
+                      <label for="">Ваше имя <span class="required">*</span></label>
+                       <input required type="text" name="" placeholder="Ваше имя">
+                    </div>
+                    <div class="form-group">
+                        <label for="">Ваш телефон <span class="required">*</span></label>
+                        <input class='input-error' required type="tel" name="" placeholder="+7 ___ ___ __ __">
+                        <span class="error-text">Error text</span>
+
+                    </div>
+                    <div class="form-group">
+                        <label for="">Ваши комментарии</span></label>
+                        <textarea name="" id="" rows="4"></textarea>
+                    </div>
+                    <div class="form-group">
+                       <div class="check">
+                          <input checked type="checkbox" id="modal_remont_checkbox"> 
+                          <label for="modal_remont_checkbox">Я согласен с условиями обработки <a href="">Персональных данных</a></label>
+                       </div>
+                    </div>
+                    <div class="form-group form-group_submit">
+                       <button class="button button_large" type="submit">Отправить</button>
+                    </div>
+                 </form>
+              </div>
+           </div>
+        </div>
+     </div>
+  </div>
+</div>
+
+<div id="modal_review" class="modal fade">
+  <div class="modal-dialog">
+     <button type="button" class="close" data-dismiss="modal" aria-hidden="true"><img src="img/close.svg"></button>
+     <div class="modal-content">
+        <div class="modal-body">
+           <div class="modal__content">
+              <div class="modal-title">ОСТАВИТЬ ОТЗЫВ</div>
+              <div class="modal__form">
+                 <form>
+                    <div class="form-group">
+                      <label for="">ФИО <span class="required">*</span></label>
+                       <input required type="text" name="" placeholder="Ваше имя">
+                    </div>
+                    <div class="form-group">
+                        <label for="">Email <span class="required">*</span></label>
+                        <input required class='input-error' type="tel" name="" placeholder="+7 ___ ___ __ __">
+                        <span class="error-text">Error text</span>
+
+                    </div>
+                    <div class="form-group">
+                        <label for="">Должность <span class="required">*</span></label>
+                        <input required type="tel" name="" placeholder="">
+                    </div>
+                    <div class="form-group">
+                        <label for="">Текст отзыва</span></label>
+                        <textarea name="" id="" rows="4"></textarea>
+                    </div>
+                    <div class="form-group flex justify-between items-center ratingform">
+                        <span class='caption'>Ваша оценка</span>
+                        <div class="rating rating_form">
+                          <div class="rating__value">
+                            <input type="text" name="rating">
+                          </div>
+                          <div class="rating__formvalue">
+                            <span>0</span> 
+                          </div>
+                          <span class="score">
+                            <div class="score-wrap">
+                              <span class="rat-stars-active" style="width: 84px;">
+                              <img src="img/start_active.svg" alt="">
+                              <img src="img/start_active.svg" alt="">
+                              <img src="img/start_active.svg" alt="">
+                              <img src="img/start_active.svg" alt="">
+                              <img src="img/start_active.svg" alt="">
+                              </span>
+                              <span class="stars-inactive">
+                              <img src="img/start_unactive.svg" alt="">
+                              <img src="img/start_unactive.svg" alt="">
+                              <img src="img/start_unactive.svg" alt="">
+                              <img src="img/start_unactive.svg" alt="">
+                              <img src="img/start_unactive.svg" alt="">
+                              </span>
+                            </div>
+                          </span>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                       <div class="check">
+                          <input checked type="checkbox" id="modal_review_checkbox"> 
+                          <label for="modal_review_checkbox">Я согласен с условиями обработки <a href="">Персональных данных</a></label>
+                       </div>
+                    </div>
+                    <div class="form-group form-group_submit">
+                       <button class="button button_large" type="submit">Отправить</button>
+                    </div>
+                 </form>
+              </div>
+           </div>
+        </div>
+     </div>
+  </div>
+</div>
+
+<script src="js/jquery-3.6.0.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.maskedinput.min.js"></script>
+
+<script src="js/slick.min.js"></script>
+<script src="js/lightbox.min.js"></script>
+<script src="js/maskedinput.min.js"></script><script src="js/wow.min.js"></script>
+
+<script src="js/bundle.js"></script>
+
+
+
+</body>
+
+</html>
