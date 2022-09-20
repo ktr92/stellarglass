@@ -10,18 +10,7 @@ $(document).ready(function () {
 
 $(document).ready(function () {
 
-  $('.mainslider__slider').slick({
-	  infinite: true,
-	  slidesToShow: 1,
-	  slidesToScroll: 1,
-    autoplay: true,
-    autoplaySpeed: 5000,
-	  arrows: true,
-	  dots: true,
-	  nextArrow: '.mainslider__arrowright',
-		prevArrow: '.mainslider__arrowleft',
-    
-	});
+  
   $('.reviewsslider__slider').slick({
 	  infinite: true,
 	  slidesToShow: 1,
