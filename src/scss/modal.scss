@@ -60,7 +60,7 @@ button.close {
 }
 
 .modal label {
-  font-family: 'Circe';
+ 
 font-style: normal;
 font-weight: 400;
 font-size: 16px;
@@ -79,7 +79,7 @@ color: #304F6F;
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
     color: #343C4B;
-    font-family: 'Circe';
+   
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
@@ -89,7 +89,7 @@ color: #304F6F;
 
     &::-webkit-input-placeholder { /* Chrome/Opera/Safari */
       color: #808080;
-    font-family: 'Circe';
+   
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
@@ -97,7 +97,7 @@ color: #304F6F;
     }
     &::-moz-placeholder { /* Firefox 19+ */
       color: #808080;
-      font-family: 'Circe';
+     
       font-style: normal;
       font-weight: 700;
       font-size: 18px;
@@ -105,7 +105,7 @@ color: #304F6F;
     }
     &:-ms-input-placeholder { /* IE 10+ */
       color: #808080;
-    font-family: 'Circe';
+   
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
@@ -113,45 +113,19 @@ color: #304F6F;
     }
     &:-moz-placeholder { /* Firefox 18- */
       color: #808080;
-    font-family: 'Circe';
+   
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
     line-height: 27px;
     }
 }
-.check {
-  
-  display: flex;
-  align-items: center;
-  color: #303640;
-  margin-top: 22px;
-  cursor: pointer;
-  label {
-    cursor: pointer;
-    margin-bottom: 0;
-    padding-left: 8px;
-    font-family: 'Circe';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 110%;
-  }
-  a {
-    color: #0068D7;
-  }
-}
-input[type=checkbox] {
-  width: 16px;
-  height: 16px;
-  border-radius: 4px;
-  margin-top: 0;
-}
+
 
 .form-group {
   margin-bottom: 17px;
   .caption {
-    font-family: 'Circe';
+   
 font-style: normal;
 font-weight: 400;
 font-size: 16px;
@@ -187,7 +161,7 @@ textarea {
   border-top-left-radius: 8px;
   border-top-right-radius: 8px;
   color: #343C4B;
-  font-family: 'Circe';
+ 
   font-style: normal;
   font-weight: 700;
   font-size: 18px;

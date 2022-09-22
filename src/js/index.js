@@ -77,6 +77,25 @@ $(document).ready(function () {
   ]
 });
 
+  $(".fileupload input[type=file]").change(function()	{		
+  if (this.files[0]) {
+    var filename = $(this).val().replace(/.*\\/, ""); 
+    /* $(this).siblings('span').empty(); */
+    $(this).closest('.fileupload').find('.filename').remove()
+    $(this).closest('.fileupload').append('<span class="filename"> ' + filename + ' ' + ' </span>');
+    $('.file-error').html("");
+    $('.file-upload span').css('text-transform', 'none');
+    $('.changefile').css('display', 'block');
+  }
+  });
+
+
+
+
+
+
+
+
   
   $('.reviewsslider__slider').slick({
 	  infinite: true,

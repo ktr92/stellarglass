@@ -189,7 +189,7 @@ img {
 }
 
 .newindex_callback {
-  padding-left: 43px;
+  padding-left: 13px;
 }
 
 .newindex_header__search {
@@ -1113,4 +1113,325 @@ margin-right: auto;
 }
 .newindex_blogcontent {
   position: relative;
+}
+
+
+.file-upload {
+  position: relative
+}
+
+.fileupload input[type=file] {
+  display: none
+}
+
+.fileupload label {
+  cursor: pointer;
+  display: block
+}
+.filename, .filenames {
+  color: #000 !important;
+}
+.modal .filenames, .modal .filename {
+  color: #000 !important;
+}
+.filebutton {
+  background-image: url(../img/clip.png);
+  background-position: 0;
+  background-repeat: no-repeat;
+  color: #000;
+  display: inline-block;
+  font-size: 13px;
+  font-weight: normal;
+/*   margin-left: 55px; */
+  min-height: 23px;
+  padding-left: 23px;
+  padding-top: 2px;
+  text-align: center;
+  transition: all .3s ease;
+  vertical-align: middle;
+  white-space: nowrap
+}
+
+@media only screen and (max-width:999px) {
+  .filebutton {
+    margin-left: 0
+  }
+}
+
+.filename {
+  padding: 0 5px
+}
+
+.filename,
+.filenames {
+  color: #07c;
+  display: inline-block;
+  font-size: 13px;
+  vertical-align: middle
+}
+
+.fileinfo,
+.filenames {
+  width: calc(100% - 200px)
+}
+
+.fileinfo {
+  color: #666;
+  font-size: 13px;
+  margin-left: 20px
+}
+
+.fileinfo,
+.fileinfo .fa {
+  display: inline-block;
+  vertical-align: middle
+}
+
+.fileinfo .fa {
+  font-size: 19px
+}
+
+.fileinfo span {
+  display: inline-block;
+  vertical-align: middle
+}
+
+.newindex_formblock {
+}
+.newindex_formblock__wrapper {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 3.214px 3.83px 1.86px 0.14px rgba(0, 0, 0, 0.18);
+    width: 619px;
+    height: 477px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.newindex_formblock__form {
+  width: 340px;
+  height: 340px;
+}
+.newindex_formblock__input {
+}
+.fileupload {
+}
+.fileupload__files {
+}
+.fileupload__file {
+}
+
+.form__row {
+}
+.form__row--notsm {
+}
+.newindex_formblock__input {
+  margin-bottom: 32px;
+}
+.newindex_formblock__input input {
+    border-width: 5px;
+    border-color: rgb(163, 204, 237);
+    border-style: solid;
+    border-radius: 9px;
+   padding: 3px 12px;
+   display: block;
+   width: 100%;
+   line-height: 1;
+}
+.check {
+}
+.bigButton {
+}
+.newindex_formblock__input--file {
+  margin-bottom: 12px;
+}
+
+.newindex_formblock {
+  height: 756px;
+  background-image: url(../img/bg3.png);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.newindex_formblock__wrapper {
+  margin-top: 100px;
+}
+.newindex_formblock__form {
+}
+.newindex_formblock__input {
+}
+.fileupload {
+}
+.fileupload__files {
+}
+.fileupload__file {
+}
+.filebutton {
+}
+.form__row {
+  display: flex;
+  align-items: center;
+}
+.form__row--notsm {
+}
+.form__input {
+}
+
+.check input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+.checkcontainer {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  font-size: 11px;
+  color: #0e3847;
+  line-height: 1.2;
+  text-align: left;
+
+}
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 24px;
+  width: 24px;
+
+}
+
+
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.checkcontainer input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.checkcontainer .checkmark:after {
+  content: url(../img/checkno.png);
+  display: block;
+  position: absolute;
+  bottom: 0;left: 0;
+  z-index: 0;
+}
+.checkcontainer input:checked ~ .checkmark:before {
+  content: url(../img/checkyes.png);
+  display: block;
+  position: absolute;
+  bottom: 0;left: 0;
+  z-index: 1;
+}
+
+
+.bigButton {
+  background: #0e3847;
+  border-radius: 100px;
+  padding: 8px 26px;
+  text-align: center;
+  display: inline-block;
+  color: #fff;
+  font-size: 16px;
+  border: none;
+  text-transform: uppercase;
+}
+
+.newindex_formblock__input--nomg {
+  margin-bottom: 10px;
+}
+
+.newindex_menubottom {
+  padding: 100px 0;
+  ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  li {
+    list-style: none;
+    padding: 0 30px;
+  }
+  a {
+    font-size: 35px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: center;
+    text-transform: uppercase;
+  }
+}
+
+@media (max-width: 1550px) {
+  .newindex_mainmenu>ul>li>a {
+    font-size: 14px;
+    padding: 5px;
+  }
+  .newindex_header__menu li {
+    padding: 0;
+  }
+  .newindex_langs {
+    padding-left: 10px;
+  }
+  .newindex_searchblock__wrapper {
+    width: 250px;
+  }
+  .newindex_button {
+    padding: 15px;
+    font-size: 13px;
+  }
+  .newindex_callback {
+    padding-left: 0;
+  }
+  .newindex_catalogblock__img {
+    width: 730px;
+    background-position: center right;
+  }
+  .newindex_catalogblock__main {
+    height: initial;
+    padding: 30px 0;
+    width: calc(100% - 809px);
+  }
+  .newindex_catalogblock__content {
+    flex-wrap: wrap;
+  }
+  .newindex_catalogblock__list {
+    margin-bottom: 30px;
+  }
+  .newindex_catalogblock__list li {
+    text-align: center;
+  }
+  .newindex_catalogblock_light  .newindex_catalogblock__link {
+    margin-bottom: 30px;
+  }
+  .newindex_catalogblock__img {
+    background-position: 100%;
+    width: 737px;
+    background-position: center right -48px;
+  }
+  .newindex_about {
+    margin-top: -145px;
+  }
+  .newindex_about__content {
+    font-size: 16px;
+    width: 170px;
+  }
+  .newindex_menubottom a {
+    font-size: 20px;
+  }
 }
