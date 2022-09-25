@@ -4,7 +4,28 @@ $(document).ready(function () {
   $('.newindex_langs__current').on('click', function () {
     $(this).toggleClass('newindex_active');
     $(this).siblings('.newindex_langs__list').slideToggle();
-});
+  });
+
+  
+  $('.closesearch').on('click', function () {
+    $('.headersearch').toggleClass('search_active');
+  });
+  $('.closemenu').on('click', function () {
+    $('.mainmenu').toggleClass('menu_active');
+    $('.newindex_header__menu').slideToggle();
+  });
+
+  
+  $('.searchbutton').on('click', function () {
+    $('.headersearch').toggleClass('search_active');
+  });
+
+  $('.newindex_header__mobilemenu').on('click', function () {
+    $('.mainmenu').toggleClass('menu_active');
+    $('.newindex_header__menu').slideToggle();
+  });
+
+
 });
 
 

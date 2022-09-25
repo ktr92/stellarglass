@@ -1,7 +1,12 @@
 <header id="header" class="newindex_header bg-white">
     <div class="newindex_header__wrapper">
       <div class="newindex_container" id='top'>
-      <div class="newindex_header__row newindex_flex newindex_items-center newindex_justify-betweeen">
+      <div class="newindex_header__row  newindex_items-center newindex_justify-betweeen">
+        <div class="newindex_header__item onlyMobile">
+          <div class="newindex_header__mobilemenu">
+            <img src="img/menu.png" alt="">
+          </div>
+        </div><!-- /.header__item -->
         <div class="newindex_header__item">
           <div class="newindex_header__block  newindex_flex newindex_items-center newindex_justify-center">
             <div class="newindex_header__logo  newindex_flex newindex_items-center newindex_justify-center ">
@@ -21,8 +26,8 @@
           </div><!-- /.header__lang -->
         </div><!-- /.header__item -->
         
-        <div class="newindex_header__item">
-          <div class="newindex_header__menu onlyDesktop">
+        <div class="newindex_header__item mainmenu onlyDesktop">
+          <div class="newindex_header__menu ">
               <div class="newindex_mainmenu">
                 <ul class='newindex_flex newindex_w-full '>
                   <li class='newindex_parent'><a href="">Главная</a></li>
@@ -37,27 +42,41 @@
                   <li class='newindex_parent'><a href="">О заводе</a></li>
                   <li class='newindex_parent'><a href="">Контакты</a></li>
                 </ul>
+                <span class="closemenu">
+                  &times;
+                </span><!-- /.closesearch -->
               </div><!-- /.mainmenu -->
              </div><!-- /.header__menu -->
         </div><!-- /.header__item -->
-        <div class="newindex_header__item">
+        <div class="newindex_header__item onlyDesktop headersearch">
           <div class="newindex_searchblock ">
               <form action="">
                 <div class="newindex_searchblock__wrapper newindex_flex newindex_items-center">
                   <div class="newindex_searchblock__icon"><button type="submit"><img src="img/search.png" alt=""></button></div>
                   <div class="newindex_searchblock__input pl-9"><input type="text" placeholder='Поиск'></div>
+                  <span class="closesearch">
+                    &times;
+                  </span><!-- /.closesearch -->
               </div><!-- /.searchblock__wrapper -->
             </form>
           </div><!-- /.searchblock -->
         </div><!-- /.header__item -->
-        <div class="newindex_header__item newindex_flex newindex_items-center onlyDesktop">
+        <div class="newindex_header__item newindex_flex newindex_items-center ">
               <div class="newindex_callback">
                 <a href="#modal_callback" data-toggle='modal' class='newindex_button decoration-none'>Заказать звонок</a>
               </div><!-- /.callback -->
           
           </div>
-        </div><!-- /.header__item -->
-      </div><!-- /.header__row -->
+          <div class="newindex_header__item onlyMobile">
+            <div class="searchbutton">
+              <span>
+                <img src="img/searchbutton.png" alt="">
+              </span>
+            </div><!-- /.searchbutton -->
+          </div><!-- /.header__item -->
+        </div>
+        
+      </div>
   </div>
   
     
