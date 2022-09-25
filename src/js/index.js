@@ -50,9 +50,9 @@ $(document).ready(function () {
       }
     },
     {
-      breakpoint: 900,
+      breakpoint: 1023,
       settings: {
-        slidesToShow: 2,
+        slidesToShow: 1,
       }
     },
     
@@ -83,9 +83,9 @@ $(document).ready(function () {
       }
     },
     {
-      breakpoint: 900,
+      breakpoint: 1023,
       settings: {
-        slidesToShow: 2,
+        slidesToShow: 1,
       }
     },
     

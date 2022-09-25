@@ -1859,9 +1859,87 @@ margin-right: auto;
   .newindex_blogblock {
     padding: 30px 0;
   }
+  .newindex__link a {
+    margin-top: 30px;
+  }
+  .newindex_blogarrow_left {
+    left: 0;
+  }
+  .newindex_blogarrow_right {
+    right: 0;
+  }
+  .newindex_formblock__header {
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 28px;
+  }
+  .newindex_formblock__wrapper {
+    height: initial;
+    padding-top: 40px;
+    padding-bottom: 110px;
+    width: 100%;
+  }
+  .newindex_footer__main {
+    padding: 0;
+  }
+  .newindex_footer__logo {
+    display: none;
+  }
+  .newindex_politic {
+    margin-bottom: 25px;
+    width: 100%;
+  }
+  .newindex_footer__info {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .newindex_copy {
+    margin-bottom: 15px;
+  }
+  .newindex_copy {
+    width: 100%;
+    br {
+      display: none;
+    }
+  }
+  .newindex_footer__menu {
+    display: none;
+  }
+  .newindex_footer__col {
+    width: 100%;
+  }
+  .newindex_fcontacts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+  }
+  .newindex_politic {
+    width: 100%;
+    text-align: center;
+  }
+ .newindex_fphone {
+    margin-bottom: 15px;
+  }
+  .newindex_fmail {
+    margin-bottom: 5px;
+  }
+  .newindex_faddress {
+    br {
+      display: none;
+    }
+  }
+  .newindex_socials__items.flex.items-center {
+    width: 100%;
+  }
+  .newindex_copy {
+    order: -1;
+  }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 1023px) {
   .newindex_container {
     max-width: 375px;
   }
