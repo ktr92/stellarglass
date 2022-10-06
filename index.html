@@ -1,0 +1,759 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no" />
+    <link rel="shortcut icon" href="favicon/favicon.ico" />
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/Swiper/8.2.4/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" />
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css" />
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link
+      rel="stylesheet"
+      href="//cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css"
+    />
+    <link rel="stylesheet" href="css/style.bundle.css" />
+    <title>REMVAC.RU</title>
+  </head>
+  <body>
+    <header id="header" class="newindex_header bg-white">
+      <div class="newindex_header__wrapper">
+        <div class="newindex_container" id="top">
+          <div class="newindex_header__row newindex_items-center newindex_justify-betweeen">
+            <div class="newindex_header__item onlyMobile">
+              <div class="newindex_header__mobilemenu"><img src="img/menu.png" alt="" /></div>
+            </div>
+            <div class="newindex_header__item">
+              <div class="newindex_header__block newindex_flex newindex_items-center newindex_justify-center">
+                <div class="newindex_header__logo newindex_flex newindex_items-center newindex_justify-center">
+                  <img src="img/logo.png" alt="" />
+                </div>
+              </div>
+            </div>
+            <div class="newindex_header__item">
+              <div class="newindex_header__lang">
+                <div class="newindex_langs">
+                  <div class="newindex_langs__current">RU</div>
+                  <div class="newindex_langs__list">
+                    <div class="newindex_langs__item"><a href="">EN</a></div>
+                    <div class="newindex_langs__item"><a href="">BL</a></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="newindex_header__item mainmenu onlyDesktop">
+              <div class="newindex_header__menu">
+                <div class="newindex_mainmenu">
+                  <ul class="newindex_flex newindex_w-full">
+                    <li class="newindex_parent"><a href="">Главная</a></li>
+                    <li class="newindex_parent">
+                      <a href="">Продукция</a>
+                      <ul class="newindex_submenu">
+                        <li><a href="/production/steklyannye-banki/">Стеклянные банки</a></li>
+                        <li><a href="/production/steklyannye-butylki/">Стеклянные бутылки</a></li>
+                      </ul>
+                    </li>
+                    <li class="newindex_parent"><a href="">О заводе</a></li>
+                    <li class="newindex_parent"><a href="">Контакты</a></li>
+                  </ul>
+                  <span class="closemenu">&times;</span>
+                </div>
+              </div>
+            </div>
+            <div class="newindex_header__item onlyDesktop headersearch">
+              <div class="newindex_searchblock">
+                <form action="">
+                  <div class="newindex_searchblock__wrapper newindex_flex newindex_items-center">
+                    <div class="newindex_searchblock__icon">
+                      <button type="submit"><img src="img/search.png" alt="" /></button>
+                    </div>
+                    <div class="newindex_searchblock__input pl-9"><input placeholder="Поиск" /></div>
+                    <span class="closesearch">&times;</span>
+                  </div>
+                </form>
+              </div>
+            </div>
+            <div class="newindex_header__item newindex_flex newindex_items-center">
+              <div class="newindex_callback">
+                <a href="#modal_callback" data-toggle="modal" class="newindex_button decoration-none"
+                  >Заказать звонок</a
+                >
+              </div>
+            </div>
+            <div class="newindex_header__item onlyMobile">
+              <div class="searchbutton">
+                <span><img src="img/searchbutton.png" alt="" /></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="newindex_mobilemenu onlyMobile bg-gray">
+        <div class="newindex_mainmenu bg-gray border-t border-gray">
+          <div class="newindex_container">
+            <ul class="newindex_mainmenu__list">
+              <li class="newindex_parent"><a href="">О компании</a></li>
+              <li class="newindex_parent">
+                <a href="">Ремонт</a>
+                <ul class="newindex_submenu">
+                  <li><a href="">MULTIVAC</a></li>
+                  <li><a href="">HENKELMAN</a></li>
+                  <li><a href="">VAMA</a></li>
+                  <li><a href="">APACH</a></li>
+                  <li><a href="">EHVC</a></li>
+                  <li><a href="">LUXSTAHL</a></li>
+                </ul>
+              </li>
+              <li class="newindex_parent"><a href="">Запчасти</a></li>
+              <li class="newindex_parent"><a href="">Прайс-лист</a></li>
+              <li class="newindex_parent"><a href="">Услуги</a></li>
+              <li class="newindex_parent"><a href="">Галерея</a></li>
+              <li class="newindex_parent"><a href="">Контакты</a></li>
+            </ul>
+          </div>
+          <div class="newindex_mobilemenu__info onlyMobile border-t border-gray">
+            <div class="newindex_container">
+              <div class="newindex_mobilemenu__socials socials">
+                <div class="newindex_socials__items newindex_flex newindex_items-center">
+                  <div class="newindex_socials__item">
+                    <a href="" target="_blank"><img src="img/Instagram.svg" alt="" /></a>
+                  </div>
+                  <div class="newindex_socials__item">
+                    <a href="" target="_blank"><img src="img/YouTube.svg" alt="" /></a>
+                  </div>
+                  <div class="newindex_socials__item">
+                    <a href="" target="_blank"><img src="img/Facebook.svg" alt="" /></a>
+                  </div>
+                </div>
+              </div>
+              <div class="newindex_mobilemenu__email">
+                <a href="mailto:info@remvac.ru" class="newindex_linkemail">info@remvac.ru</a>
+              </div>
+              <div class="newindex_mobilemenu__phone">
+                <div class="newindex_phone newindex_flex newindex_items-center">
+                  <a href="tel:84954775362" class="newindex_text-white text-xl decoration-none">8 495 477 53 62</a>
+                  <span class="newindex_chevtrondown pl-6"><img src="img/chevron-down.svg" alt="" /></span>
+                </div>
+                <div class="newindex_header__status">
+                  <span class="newindex_status__icon"><img src="img/status.svg" alt="" /></span
+                  ><span class="newindex_status__text pl-7 text-white text-md">Мы на связи</span>
+                </div>
+              </div>
+              <div class="newindex_mobilemenu__callback">
+                <div class="newindex_callback">
+                  <a target="_blank" href="#" class="newindex_button decoration-none">Заказать звонок</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section>
+        <div class="newindex_mainblock">
+          <div class="newindex_container">
+            <div class="newindex_mainblock__wrapper newindex_flex newindex_justify-between newindex_items-bottom">
+              <div class="newindex_mainblock__main newindex_flex newindex_justify-between newindex_items-bottom">
+                <div class="newindex_newindex_flex newindex_flex-column newindex_justify-end newindex__mainblockM">
+                  <div class="newindex_mainblock__title">
+                    <h1><span>Дмитровский</span> стекольный завод</h1>
+                  </div>
+                  <div class="newindex_mainblock__mobileimage onlyMobile">
+                    <div class="newindex_mainblock__mobileimg"><img src="img/image1.png" alt="" /></div>
+                  </div>
+                  <div class="newindex_mainblock__descr">Производство стеклотары</div>
+                  <div class="newindex_mainblock__icon">
+                    <a href="#"><img src="img/play.png" alt="" /></a>
+                  </div>
+                </div>
+              </div>
+              <div class="newindex_mainblock__image">
+                <div class="newindex_mainblock__img"><img src="img/image1.png" alt="" /></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="newindex_fitchesblock">
+          <div class="newindex_container">
+            <div class="newindex_fitchesblock__wrapper newindex_flex newindex_justify-between newindex_items-center">
+              <div class="newindex_fitchesblock__fitches">
+                <div class="newindex_blueitems">
+                  <div class="newindex_blueitems__item">
+                    <div class="newindex_blueitems__content">
+                      <div class="newindex_blueitems__main">
+                        <div class="newindex_blueitems__image">
+                          <div class="newindex_blueitems__img"><img src="img/fitchesblock1.png" alt="" /></div>
+                        </div>
+                        <div class="newindex_blueitems__text"><span>Современные технологии</span></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="newindex_blueitems__item">
+                    <div class="newindex_blueitems__content">
+                      <div class="newindex_blueitems__main">
+                        <div class="newindex_blueitems__image">
+                          <div class="newindex_blueitems__img"><img src="img/fitchesblock2.png" alt="" /></div>
+                        </div>
+                        <div class="newindex_blueitems__text"><span>Контроль качества</span></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="newindex_blueitems__item">
+                    <div class="newindex_blueitems__content">
+                      <div class="newindex_blueitems__main">
+                        <div class="newindex_blueitems__image">
+                          <div class="newindex_blueitems__img"><img src="img/fitchesblock3.png" alt="" /></div>
+                        </div>
+                        <div class="newindex_blueitems__text"><span>Максимальная надежность</span></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="newindex_blueitems__item">
+                    <div class="newindex_blueitems__content">
+                      <div class="newindex_blueitems__main">
+                        <div class="newindex_blueitems__image">
+                          <div class="newindex_blueitems__img"><img src="img/fitchesblock4.png" alt="" /></div>
+                        </div>
+                        <div class="newindex_blueitems__text"><span>Индивидуальный подход</span></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="newindex_blueitems__item">
+                    <div class="newindex_blueitems__content">
+                      <div class="newindex_blueitems__main">
+                        <div class="newindex_blueitems__image">
+                          <div class="newindex_blueitems__img"><img src="img/fitchesblock5.png" alt="" /></div>
+                        </div>
+                        <div class="newindex_blueitems__text"><span>Высокий профессионализм сотрудников</span></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="newindex_blueitems__item">
+                    <div class="newindex_blueitems__content">
+                      <div class="newindex_blueitems__main">
+                        <div class="newindex_blueitems__image">
+                          <div class="newindex_blueitems__img"><img src="img/fitchesblock6.png" alt="" /></div>
+                        </div>
+                        <div class="newindex_blueitems__text"><span>Дорожим своей репутацией</span></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="newindex_fitchesblock__textimg">
+                <div class="newindex_fitchesblock__img"><img src="img/text.png" alt="" /></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="newindex_darkk">
+        <section>
+          <div class="newindex_catalogblock newindex_catalogblock_dark">
+            <div class="newindex_container">
+              <div class="newindex_catalogblock__wrapper newindex_flex newindex_items-center">
+                <div class="newindex_catalogblock__image">
+                  <div class="newindex_catalogblock__imggg onlyMobile"><img src="img/catalogblock1.png" alt="" /></div>
+                  <div class="newindex_catalogblock__img" style="background-image: url(img/catalogblock1.png)">
+                    <div class="newindex_catalogblock__imgcontent">
+                      <div class="newindex_catalogblock__imgtitle">I-82-1350</div>
+                      <div class="newindex_catalogblock__imgparams">
+                        <div class="newindex_catalogblock__imgparam"><span>Вместимость</span> <span>1350 мл</span></div>
+                        <div class="newindex_catalogblock__imgparam"><span>Высота</span> <span>205 мм</span></div>
+                        <div class="newindex_catalogblock__imgparam"><span>Диаметр</span> <span>105 мм</span></div>
+                        <div class="newindex_catalogblock__imgparam"><span>Тип венчика</span> <span>I-82</span></div>
+                      </div>
+                      <div class="newindex_catalogblock__imglink">
+                        <a href="/production/steklyannye-banki/">Заказать</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="newindex_catalogblock__main">
+                  <div class="newindex_catalogblock__content">
+                    <div class="newindex_catalogblock__list">
+                      <ul>
+                        <li>ТО-82-900</li>
+                        <li>I-82-500-1</li>
+                        <li>II-2-82-500</li>
+                        <li>I-82-1000</li>
+                        <li>III-2-82-1000</li>
+                        <li>ТО-82-700</li>
+                        <li>ТО-43-1000-Соковая</li>
+                        <li>I-82-1350</li>
+                        <li>III-2-82-1350</li>
+                        <li>ТО-66-500-Груша</li>
+                        <li>III-3-60-400-Кафе Крем</li>
+                        <li>II-55.2-450-Президент</li>
+                        <li>III-4-66-1-480</li>
+                        <li>ТО-82-650</li>
+                        <li>H-2495-2-225-Ламбада</li>
+                        <li>К-62-1-440-Ламбада ЧК</li>
+                        <li>III-3-52-400-Наполитано</li>
+                      </ul>
+                    </div>
+                    <div class="newindex_catalogblock__link">
+                      <div class="newindex_catalogblock__title">Стеклянные <span>банки</span></div>
+                      <a href="/production/steklyannye-banki/">В каталог</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section>
+          <div class="newindex_catalogblock newindex_catalogblock_light">
+            <div class="newindex_container">
+              <div class="newindex_catalogblock__wrapper newindex_flex newindex_items-center">
+                <div class="newindex_catalogblock__main">
+                  <div class="newindex_catalogblock__content">
+                    <div class="newindex_catalogblock__link">
+                      <div class="newindex_catalogblock__title">Стеклянные <span>бутылки</span></div>
+                      <a href="/production/steklyannye-banki/">В каталог</a>
+                    </div>
+                    <div class="newindex_catalogblock__list">
+                      <ul>
+                        <li>В-31-4-500-Штоф оригинальный</li>
+                        <li>КПМ-30-700 Штоф кристалл</li>
+                        <li>КПМ-30Д-500-Хортица</li>
+                        <li>В-28-2-250-Фляга К</li>
+                        <li>В-28-2-500-Фляга Д</li>
+                        <li>В-25-2-500-Столовая N Грани</li>
+                        <li>В-28-4изм-500-Родник</li>
+                        <li>В-25-2-500-Пъятница</li>
+                        <li>В-30-2-500-Праздничная</li>
+                        <li>П-27Д-500-1</li>
+                        <li>П-40-500-ОБК</li>
+                        <li>ПИ-28-700-Мороша New</li>
+                        <li>КПМ-28спец-500-Медовуха New</li>
+                        <li>В-28-2-500-Добрый медведь</li>
+                        <li>КПМ-30-500-Гуала</li>
+                        <li>В-28-1-500-ГОСТ</li>
+                        <li>П-27.2-500-Белый налив</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="newindex_catalogblock__image">
+                  <div class="newindex_catalogblock__img" style="background-image: url(img/catalogblock2.png)">
+                    <div class="newindex_catalogblock__imgcontent">
+                      <div class="newindex_catalogblock__imgtitle">В-28-2-250-Фляга К</div>
+                      <div class="newindex_catalogblock__imgparams">
+                        <div class="newindex_catalogblock__imgparam"><span>Вместимость</span> <span>250 мл</span></div>
+                        <div class="newindex_catalogblock__imgparam"><span>Высота</span> <span>189,2 мм</span></div>
+                        <div class="newindex_catalogblock__imgparam"><span>Диаметр</span> <span>85,5 мм</span></div>
+                        <div class="newindex_catalogblock__imgparam"><span>Тип венчика</span> <span>B-28-2</span></div>
+                      </div>
+                      <div class="newindex_catalogblock__imglink">
+                        <a href="/production/steklyannye-banki/">Заказать</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </section>
+      <div class="section__catalogblock--mobile onlyMobile">
+        <div class="newindex_catalogblock__link">
+          <div class="newindex_catalogblock__title">Стеклянные <span>банки</span></div>
+          <a href="/production/steklyannye-banki/">В каталог</a>
+        </div>
+        <div class="newindex_catalogblock__imggg onlyMobile">
+          <div class="newindex_catalogblock__imga"><img src="img/catalogblock1.png" alt="" /></div>
+        </div>
+        <div class="newindex_catalogblock__imgcontent">
+          <div class="newindex_catalogblock__imgtitle">I-82-1350</div>
+        </div>
+        <div class="newindex_catalogblock__imglink"><a href="/production/steklyannye-banki/">Заказать</a></div>
+      </div>
+      <div class="section__catalogblock--mobile section__catalogblock--mobile--light onlyMobile">
+        <div class="newindex_catalogblock__link">
+          <div class="newindex_catalogblock__title">Стеклянные <span>бутылки</span></div>
+          <a href="/production/steklyannye-butylki/">В каталог</a>
+        </div>
+        <div class="newindex_catalogblock__imggg onlyMobile">
+          <div class="newindex_catalogblock__imga"><img src="img/catalogblock2.png" alt="" /></div>
+        </div>
+        <div class="newindex_catalogblock__imgcontent">
+          <div class="newindex_catalogblock__imgtitle">В-28-2-250-Фляга К</div>
+        </div>
+        <div class="newindex_catalogblock__imglink"><a href="/production/steklyannye-butylki/">Заказать</a></div>
+      </div>
+      <section>
+        <div class="newindex_about">
+          <div class="newindex_container">
+            <div class="newindex__bannerwrapper">
+              <div class="newindex_about__banner">
+                <div class="newindex_about__bannercontent">
+                  <div class="newindex_about__title">Эксклюзивная<br />продукция</div>
+                  <div class="newindex_about__link"><a href="">Подробнее</a></div>
+                </div>
+              </div>
+              <div class="newindex_about__text">
+                Для своих партнеров мы готовы предложить производство стеклянной упаковки по индивидуальному заказу на
+                гибких условиях. Стеклянные банки и бутылки разного объёма и дизайна. Для обсуждения возможности
+                производства, объемов минимальных тиражей, а так же условий сотрудничества вы можете связаться с нашими
+                менеджерами.
+              </div>
+            </div>
+            <div class="newindex_about__items">
+              <div class="newindex_about__item">
+                <div class="newindex_about__content">
+                  <div class="newindex_about__caption">Индивидуальный дизайн</div>
+                </div>
+              </div>
+              <div class="newindex_about__item">
+                <div class="newindex_about__content">
+                  <div class="newindex_about__caption">Конкуретное преимущество</div>
+                </div>
+              </div>
+              <div class="newindex_about__item">
+                <div class="newindex_about__content">
+                  <div class="newindex_about__caption">Учет особенностей товара</div>
+                </div>
+              </div>
+              <div class="newindex_about__item">
+                <div class="newindex_about__content">
+                  <div class="newindex_about__caption">Кратчайшие сроки изготовления</div>
+                </div>
+              </div>
+              <div class="newindex_about__item">
+                <div class="newindex_about__content">
+                  <div class="newindex_about__caption">Послепродажная поддержка потребителей</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="newindex_partners">
+          <div class="newindex_main_section animated" id="partners">
+            <div class="newindex_page_width">
+              <div class="newindex_container"><h2>Наши партнеры</h2></div>
+              <div class="newindex_partners_slider">
+                <div class="newindex_item">
+                  <img
+                    src="https://stellarglass.ru/upload/iblock/be7/be7d746275c8502e7d9ea7b79102c7c0.png"
+                    alt="Партнер 6"
+                  />
+                </div>
+                <div class="newindex_item">
+                  <img
+                    src="https://stellarglass.ru/upload/iblock/5a2/5a22b3cee7f340072d9e9b6ad428dcce.png"
+                    alt="Партнер 7"
+                  />
+                </div>
+                <div class="newindex_item">
+                  <img
+                    src="https://stellarglass.ru/upload/iblock/15a/15abb9a02564f6a4f4c260f59b83c5c5.png"
+                    alt="Партнер 8"
+                  />
+                </div>
+                <div class="newindex_item">
+                  <img
+                    src="https://stellarglass.ru/upload/iblock/e04/e040b49c35264eb4fca89b7d08a3eec0.png"
+                    alt="Партнер 1"
+                  />
+                </div>
+                <div class="newindex_item">
+                  <img
+                    src="https://stellarglass.ru/upload/iblock/be7/be7d746275c8502e7d9ea7b79102c7c0.png"
+                    alt="Партнер 2"
+                  />
+                </div>
+                <div class="newindex_item">
+                  <img
+                    src="https://stellarglass.ru/upload/iblock/5a2/5a22b3cee7f340072d9e9b6ad428dcce.png"
+                    alt="Партнер 3"
+                  />
+                </div>
+                <div class="newindex_item">
+                  <img
+                    src="https://stellarglass.ru/upload/iblock/15a/15abb9a02564f6a4f4c260f59b83c5c5.png"
+                    alt="Партнер 4"
+                  />
+                </div>
+                <div class="newindex_item">
+                  <img
+                    src="https://stellarglass.ru/upload/iblock/e04/e040b49c35264eb4fca89b7d08a3eec0.png"
+                    alt="Партнер 5"
+                  />
+                </div>
+                <div class="newindex_item">
+                  <img
+                    src="https://stellarglass.ru/upload/iblock/be7/be7d746275c8502e7d9ea7b79102c7c0.png"
+                    alt="Партнер 6"
+                  />
+                </div>
+                <div class="newindex_item">
+                  <img
+                    src="https://stellarglass.ru/upload/iblock/5a2/5a22b3cee7f340072d9e9b6ad428dcce.png"
+                    alt="Партнер 7"
+                  />
+                </div>
+                <div class="newindex_item">
+                  <img
+                    src="https://stellarglass.ru/upload/iblock/15a/15abb9a02564f6a4f4c260f59b83c5c5.png"
+                    alt="Партнер 8"
+                  />
+                </div>
+                <div class="newindex_item">
+                  <img
+                    src="https://stellarglass.ru/upload/iblock/e04/e040b49c35264eb4fca89b7d08a3eec0.png"
+                    alt="Партнер 1"
+                  />
+                </div>
+                <div class="newindex_item">
+                  <img
+                    src="https://stellarglass.ru/upload/iblock/be7/be7d746275c8502e7d9ea7b79102c7c0.png"
+                    alt="Партнер 2"
+                  />
+                </div>
+                <div class="newindex_item">
+                  <img
+                    src="https://stellarglass.ru/upload/iblock/5a2/5a22b3cee7f340072d9e9b6ad428dcce.png"
+                    alt="Партнер 3"
+                  />
+                </div>
+                <div class="newindex_item">
+                  <img
+                    src="https://stellarglass.ru/upload/iblock/15a/15abb9a02564f6a4f4c260f59b83c5c5.png"
+                    alt="Партнер 4"
+                  />
+                </div>
+                <div class="newindex_item">
+                  <img
+                    src="https://stellarglass.ru/upload/iblock/e04/e040b49c35264eb4fca89b7d08a3eec0.png"
+                    alt="Партнер 5"
+                  />
+                </div>
+                <div class="newindex_item">
+                  <img
+                    src="https://stellarglass.ru/upload/iblock/be7/be7d746275c8502e7d9ea7b79102c7c0.png"
+                    alt="Партнер 6"
+                  />
+                </div>
+                <div class="newindex_item">
+                  <img
+                    src="https://stellarglass.ru/upload/iblock/5a2/5a22b3cee7f340072d9e9b6ad428dcce.png"
+                    alt="Партнер 7"
+                  />
+                </div>
+                <div class="newindex_item">
+                  <img
+                    src="https://stellarglass.ru/upload/iblock/15a/15abb9a02564f6a4f4c260f59b83c5c5.png"
+                    alt="Партнер 8"
+                  />
+                </div>
+              </div>
+              <span class="newindex_slick-prev" style="">&nbsp;</span>
+              <span class="newindex_slick-next" style="">&nbsp;</span>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="newindex_blogblock">
+          <div class="newindex_container">
+            <div class="newindex_blog">
+              <h2>Блог</h2>
+              <div class="newindex_blogcontent">
+                <div class="newindex_blogslider">
+                  <div class="newindex_blogslide">
+                    <div class="newindex_blog__wrapper">
+                      <div class="newindex_blogmain">
+                        <div class="newindex_blogitem">
+                          <div class="newindex_blogtitle">Запуск новой печи для производства стеклотары 1</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="newindex_blogslide">
+                    <div class="newindex_blog__wrapper">
+                      <div class="newindex_blogmain">
+                        <div class="newindex_blogitem">
+                          <div class="newindex_blogtitle">Запуск новой печи для производства стеклотары 1</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="newindex_blogslide">
+                    <div class="newindex_blog__wrapper">
+                      <div class="newindex_blogmain">
+                        <div class="newindex_blogitem">
+                          <div class="newindex_blogtitle">Запуск новой печи для производства стеклотары 1</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="newindex_blogslide">
+                    <div class="newindex_blog__wrapper">
+                      <div class="newindex_blogmain">
+                        <div class="newindex_blogitem">
+                          <div class="newindex_blogtitle">Запуск новой печи для производства стеклотары 1</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="newindex_blogslide">
+                    <div class="newindex_blog__wrapper">
+                      <div class="newindex_blogmain">
+                        <div class="newindex_blogitem">
+                          <div class="newindex_blogtitle">Запуск новой печи для производства стеклотары 1</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="newindex_blogarrows">
+                  <div class="newindex_blogarrow newindex_blogarrow_left"><img src="img/blogleft.png" alt="" /></div>
+                  <div class="newindex_blogarrow newindex_blogarrow_right"><img src="img/blogright.png" alt="" /></div>
+                </div>
+              </div>
+              <div class="newindex__link"><a href="/news/">Все статьи</a></div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="newindex_formblock">
+          <div class="newindex_formblock__wrapper">
+            <div class="newindex_formblock__form">
+              <div class="newindex_formblock__header">Отправить запрос</div>
+              <div class="newindex_formblock__input"><input placeholder="Имя" /></div>
+              <div class="newindex_formblock__input"><input placeholder="Номер телефона *" /></div>
+              <div class="newindex_formblock__input"><input placeholder="Email" /></div>
+              <div class="newindex_formblock__input newindex_formblock__input--nomg">
+                <input placeholder="Комментарий" />
+              </div>
+              <div class="newindex_formblock__input newindex_formblock__input--file">
+                <div class="fileupload">
+                  <label
+                    ><div class="fileupload__files">
+                      <div class="fileupload__file">
+                        <input type="file" name="FILE" /> <span class="filebutton">прикрепить файл</span>
+                      </div>
+                    </div></label
+                  >
+                </div>
+              </div>
+              <div class="newindex_formblock__input">
+                <div class="form__row form__row--notsm">
+                  <div class="form__input">
+                    <div class="check">
+                      <label class="checkcontainer" for="checkbox_1"
+                        >я даю согласие на обработку персональных данных
+                        <input id="checkbox_1" type="checkbox" checked="checked" value="Y" checked="" />
+                        <span class="checkmark"></span
+                      ></label>
+                    </div>
+                  </div>
+                  <div class="form__input"><button type="submit" class="bigButton">Отправить</button></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="newindex_menubottom">
+          <div class="newindex_container">
+            <ul>
+              <li><a href="">Производство</a></li>
+              <li><a href="">Галерея</a></li>
+              <li><a href="">Сертификаты</a></li>
+              <li><a href="">Вакансии</a></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </main>
+    <section>
+      <footer id="footer" class="newindex_footer clearfix">
+        <div class="newindex_footer__main">
+          <div class="newindex_container">
+            <div class="newindex_footer__cols">
+              <div class="newindex_footer__col">
+                <div class="newindex_footer__info">
+                  <div class="newindex_footer__logo">
+                    <a href="#top" class="scrollTo flex items-center"><img src="img/logowhite.png" alt="" /></a>
+                  </div>
+                  <div class="newindex_politic"><a href="">Политика конфиденциальности</a></div>
+                  <div class="newindex_copy">Все права защищены.<br />© 2022 ООО "Стеллар Гласс"</div>
+                </div>
+              </div>
+              <div class="newindex_footer__col">
+                <div class="newindex_footer__menu">
+                  <div class="newindex_footer__title">ПРОДУКЦИЯ</div>
+                  <div class="newindex_footermenu">
+                    <ul>
+                      <li><a href="">Стеклянные банки</a></li>
+                      <li><a href="">Стеклянные бутылки</a></li>
+                      <li><a href="">Эксклюзивная продукция</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="newindex_footer__col">
+                <div class="newindex_footer__menu">
+                  <div class="newindex_footer__title">ИНФОРМАЦИЯ</div>
+                  <div class="newindex_footermenu">
+                    <ul>
+                      <li><a href="">Для партнёров</a></li>
+                      <li><a href="">Сотрудничество</a></li>
+                      <li><a href="">Снабжение</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="newindex_footer__col">
+                <div class="newindex_footer__menu">
+                  <div class="newindex_footer__title">КОНТАКТЫ</div>
+                  <div class="newindex_footermenu">
+                    <ul>
+                      <li><a href="">Коммерческий отдел</a></li>
+                      <li><a href="">Снабжение</a></li>
+                      <li><a href="">Отдел кадров</a></li>
+                      <li><a href="">Приёмная</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="newindex_footer__col">
+                <div class="newindex_fcontacts">
+                  <div class="newindex_fmail"><a href="mailto:info@stellarglass.ru">info@stellarglass.ru</a></div>
+                  <div class="newindex_fphone"><a href="tel:84955101993">8 (495) 510-19-93</a></div>
+                  <div class="newindex_faddress">МО, Дмитровский г.о.,<br />с. Борисово, д. 100</div>
+                  <div class="newindex_fbutton"><a href="#">Заказать звонок</a></div>
+                  <div class="newindex_socials__items flex items-center">
+                    <div class="newindex_socials__item">
+                      <a href="//vk.com/steklodm" target="_blank"><img src="img/vkicon.png" alt="" /></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </section>
+    <script src="//code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery.maskedinput/1.4.1/jquery.maskedinput.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/Swiper/8.2.4/swiper-bundle.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.js"></script>
+    <script src="js/bundle.js"></script>
+  </body>
+</html>
